@@ -231,7 +231,7 @@ cloudActivateBtn1.onclick = () => {
         container.style.pointerEvents =  "none"
         nav.style.pointerEvents =  "none"
         navShowHelp.style.display = "none"
-        notificationHeadP.textContent = "Machine2"
+        notificationHeadP.textContent = "Machine1"
         notificationBodyP.textContent = "Cloud Connect v1 Machine is now Active, but we detected another cloud machine that is still running.. Machine v1 and Machine v2 computing power is now combinated"
 
       } else {
@@ -240,7 +240,7 @@ cloudActivateBtn1.onclick = () => {
         container.style.pointerEvents =  "none"
         nav.style.pointerEvents =  "none"
         navShowHelp.style.display = "none"
-        notificationHeadP.textContent = "Machine2"
+        notificationHeadP.textContent = "Machine1"
         notificationBodyP.textContent = "Cloud Connect v1 Machine is now Active."
       }
       localStorage.setItem("machine1", "true")
@@ -1104,8 +1104,8 @@ function run() {
 function movePhrase() {
   // Array of 50 sets, each containing 12 words
 const wordSets = [
-  ["apple", "banana", "orange", "grape", "pineapple", "kiwi", "strawberry", "blueberry", "watermelon", "peach", "mango", "pear"],
-  ["dog", "cat", "bird", "fish", "rabbit", "hamster", "turtle", "guinea pig", "parrot", "snake", "frog", "horse"],
+  ["spice", "polar", "crane", "dash", "trouble", "risk", "alter", "sheriff", "attitude", "walk", "idle", "present"],
+  // ["dog", "cat", "bird", "fish", "rabbit", "hamster", "turtle", "guinea pig", "parrot", "snake", "frog", "horse"],
   // Add more sets here...
 ];
 

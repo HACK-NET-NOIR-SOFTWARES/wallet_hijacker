@@ -277,7 +277,7 @@ cloudActivateBtn2.onclick = () => {
     notificationHeadP.textContent = "Machine2"
     notificationBodyP.textContent = "Cloud Connect v2 Machine is still Active and Run"
   }
-  let codes = ["machine48493", "machinefnfj4", "machinec94k4d"];
+  let codes = ["machine48493", "machinefnfj4", "machinec85k4d"];
   for (let f = 0; f < codes.length; f++) {
     if (machine2.value === codes[f]) {
       if(localStorage.getItem('machine1')){

@@ -193,7 +193,7 @@ navPlugs.onclick = ()=> {
   nav.style.pointerEvents = "none"
   // info
   popupboxHeadP1.innerHTML = "Plugs"
-  popupboxBody1.style.height = "34em"
+  popupboxBody1.style.height = "38em"
   // popupboxBorder1
 //   popupboxBorder.innerHTML = `
 //   <p style="color: lime; margin-top: -.5em;">Cloud Connect v1 Machine</p>
@@ -790,7 +790,7 @@ exodusActivateSoftwareBtn.onclick = ()=> {
 
 demoTry.onclick = ()=> {
   if (localStorage.getItem('machine1') || localStorage.getItem('machine2')) {
-    notificationBody.style.height = "7em"
+    notificationBody.style.height = "10em"
     notificationContainer.style.display = "flex"
     container.style.pointerEvents =  "none"
     nav.style.pointerEvents =  "none"
@@ -855,7 +855,7 @@ notificationOkBtn.onclick = ()=> {
   }
   
   about.onclick = ()=> {
-    notificationBody.style.height = "25em"
+    notificationBody.style.height = "28em"
     notificationContainer.style.display = "flex"
     container.style.pointerEvents =  "none"
     nav.style.pointerEvents =  "none"

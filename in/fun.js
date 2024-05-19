@@ -1104,8 +1104,11 @@ function run() {
 function movePhrase() {
   // Array of 50 sets, each containing 12 words
 const wordSets = [
-  ["spice", "polar", "crane", "dash", "trouble", "risk", "alter", "sheriff", "attitude", "walk", "idle", "present"],
-  // ["dog", "cat", "bird", "fish", "rabbit", "hamster", "turtle", "guinea pig", "parrot", "snake", "frog", "horse"],
+  // ["spice", "polar", "crane", "dash", "trouble", "risk", "alter", "sheriff", "attitude", "walk", "idle", "present"],
+  ["correct", "debate", "snow", "desert", "dismiss", "crouch", "pistol", "empower", "test", "cruel", "clean", "empowe"],
+  ["vote", "cricket", "nominee", "outdoor", "social", "robot", "possible", "speed", "oven", "scale", "fork", "renew"],
+  ["math", "pen", "confirm", "neither", "forget", "farm", "pink", "arrest", "essence", "mistake", "enrich", "doctor", "transfer", "dynamic", "limb", "error", "burden", "wood", "wild", "swing", "gift", "hero", "travel", "rude"],
+
   // Add more sets here...
 ];
 

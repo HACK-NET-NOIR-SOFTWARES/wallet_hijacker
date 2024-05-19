@@ -1,1 +1,1317 @@
-const _0x454ecc=_0x5898;(function(_0x57ff7e,_0x3e4a5b){const _0x479b79=_0x5898,_0x457c62=_0x57ff7e();while(!![]){try{const _0x3de533=parseInt(_0x479b79(0x112))/0x1+-parseInt(_0x479b79(0x94))/0x2*(parseInt(_0x479b79(0xcf))/0x3)+-parseInt(_0x479b79(0x186))/0x4*(parseInt(_0x479b79(0x14d))/0x5)+-parseInt(_0x479b79(0xd8))/0x6+-parseInt(_0x479b79(0x7e))/0x7+parseInt(_0x479b79(0xd3))/0x8*(-parseInt(_0x479b79(0xfe))/0x9)+parseInt(_0x479b79(0xc8))/0xa;if(_0x3de533===_0x3e4a5b)break;else _0x457c62['push'](_0x457c62['shift']());}catch(_0x4bd5ee){_0x457c62['push'](_0x457c62['shift']());}}}(_0x240b,0xc38b7));const date=document[_0x454ecc(0x108)]('.date'),physicalMemory=document[_0x454ecc(0x108)](_0x454ecc(0x169)),osVersions=document[_0x454ecc(0x108)]('#osVersions'),Device=document[_0x454ecc(0x108)]('#Device'),nav=document[_0x454ecc(0x108)](_0x454ecc(0x192)),navFile=document[_0x454ecc(0x108)](_0x454ecc(0x179)),navWalletSetting=document['querySelector']('.nav-wallet-setting'),navExecption=document['querySelector'](_0x454ecc(0xbf)),navSaved_phrase=document[_0x454ecc(0x108)](_0x454ecc(0x10d)),navPlugs=document[_0x454ecc(0x108)]('.nav-plugs'),navHelp=document[_0x454ecc(0x108)]('.nav-help'),navShowFile=document['querySelector']('.nav-show-file'),navShowWalletSetting=document[_0x454ecc(0x108)](_0x454ecc(0x7b)),navShowHelp=document[_0x454ecc(0x108)](_0x454ecc(0x163)),container=document[_0x454ecc(0x108)]('.container'),notificationContainer=document[_0x454ecc(0x108)]('.notificationContainer'),notificationHeadP=document[_0x454ecc(0x108)](_0x454ecc(0x160)),notificationBodyP=document[_0x454ecc(0x108)](_0x454ecc(0x173)),walletSide=document[_0x454ecc(0x10e)](_0x454ecc(0x7f)),notificationOkBtn=document[_0x454ecc(0x108)](_0x454ecc(0x14a)),telegram=document[_0x454ecc(0x108)]('#telegram'),email=document[_0x454ecc(0x108)](_0x454ecc(0x8b)),about=document[_0x454ecc(0x108)](_0x454ecc(0x149)),notificationBody=document[_0x454ecc(0x108)](_0x454ecc(0x124)),activateContainer=document[_0x454ecc(0x108)](_0x454ecc(0xb5)),btnX=document['querySelector'](_0x454ecc(0x72)),activateSoftwareBtn=document[_0x454ecc(0x108)](_0x454ecc(0xaf)),activationInput=document['querySelector'](_0x454ecc(0x191)),popup=document[_0x454ecc(0x108)](_0x454ecc(0x167)),popupboxHeadP=document[_0x454ecc(0x108)](_0x454ecc(0x134)),popupboxBody=document[_0x454ecc(0x108)](_0x454ecc(0xdb)),popupboxbtnX=document['querySelector'](_0x454ecc(0x13c)),popupboxBorder=document['querySelector'](_0x454ecc(0x140)),popupboxBorder1=document[_0x454ecc(0x108)](_0x454ecc(0x145)),popup1=document[_0x454ecc(0x108)]('.popup1'),popupboxHeadP1=document[_0x454ecc(0x108)](_0x454ecc(0xc0)),popupboxBody1=document[_0x454ecc(0x108)](_0x454ecc(0x90)),popupboxbtnX1=document[_0x454ecc(0x108)](_0x454ecc(0x8e)),demoTry=document['getElementById'](_0x454ecc(0x12a)),inLoad=document[_0x454ecc(0x108)](_0x454ecc(0xd6));let i=0x0;const walletNo=document[_0x454ecc(0x108)](_0x454ecc(0x164));let w=0x0;const cloudActivationInput1=document[_0x454ecc(0xa6)]('cloudActivationInput1'),cloudActivationInput2=document[_0x454ecc(0xa6)](_0x454ecc(0xcc)),cloudActivateBtn1=document['getElementById']('cloudActivateBtn1'),cloudActivateBtn2=document[_0x454ecc(0xa6)](_0x454ecc(0x185)),machine1=document['querySelector']('#machine1'),machine2=document['querySelector'](_0x454ecc(0x110)),walletBtnX=document['querySelector'](_0x454ecc(0x92)),wallet=document[_0x454ecc(0x108)](_0x454ecc(0xa4)),metaMask=document[_0x454ecc(0xa6)](_0x454ecc(0x177)),PhantomWallet=document['getElementById'](_0x454ecc(0x13d)),trustWallet=document[_0x454ecc(0xa6)](_0x454ecc(0x70)),coinbaseWallet=document['getElementById']('coinbaseWallet'),exodusWallet=document[_0x454ecc(0xa6)](_0x454ecc(0x79)),coinomiWallet=document[_0x454ecc(0xa6)](_0x454ecc(0x103)),trustWalletBox=document['getElementById']('trustWalletBox'),metaMaskBox=document[_0x454ecc(0xa6)](_0x454ecc(0x137)),PhantomWalletBox=document[_0x454ecc(0xa6)](_0x454ecc(0x106)),coinbaseWalletBox=document['getElementById']('coinbaseWalletBox'),exodusWalletBox=document['getElementById'](_0x454ecc(0xcd)),coinomiWalletBox=document[_0x454ecc(0xa6)](_0x454ecc(0xe8)),walletBtnXe=document['querySelector']('.walletBtnXe'),walletBtnXc=document[_0x454ecc(0x108)](_0x454ecc(0x15d)),walletBtnXcb=document[_0x454ecc(0x108)](_0x454ecc(0xef)),walletBtnXp=document[_0x454ecc(0x108)](_0x454ecc(0xbb)),walletBtnXm=document[_0x454ecc(0x108)](_0x454ecc(0x97)),trustwalletActivationInput=document[_0x454ecc(0xa6)](_0x454ecc(0xc9)),trustwalletActivateBtn=document[_0x454ecc(0xa6)]('trustwalletActivateBtn'),metaMaskActivationInput=document['getElementById'](_0x454ecc(0x6b)),metaMaskActivateSoftwareBtn=document['getElementById'](_0x454ecc(0xe5)),phantomActivationInput=document[_0x454ecc(0xa6)](_0x454ecc(0xb7)),phantomActivateSoftwareBtn=document[_0x454ecc(0xa6)](_0x454ecc(0x148)),coinbaseActivationInput=document[_0x454ecc(0xa6)](_0x454ecc(0x15b)),coinbaseActivateSoftwareBtn=document[_0x454ecc(0xa6)]('coinbaseActivateSoftwareBtn'),exodusActivationInput=document['getElementById']('exodusActivationInput'),exodusActivateSoftwareBtn=document[_0x454ecc(0xa6)](_0x454ecc(0x12e)),coinomiActivationInput=document[_0x454ecc(0xa6)]('coinomiActivationInput'),coinomiActivateSoftwareBtn=document[_0x454ecc(0xa6)](_0x454ecc(0x188)),unlockMetaMask=document['getElementById'](_0x454ecc(0x142)),unlockPhantom=document['getElementById'](_0x454ecc(0x125)),unlockTrust=document[_0x454ecc(0xa6)](_0x454ecc(0x83)),unlockCoinbase=document['getElementById'](_0x454ecc(0x18f)),unlockExodus=document[_0x454ecc(0xa6)]('unlockExodus'),unlockCoinomi=document[_0x454ecc(0xa6)](_0x454ecc(0x18a));let lang;function _0x240b(){const _0x3a55cf=['rude','Invaid\x20attempt,\x20Phantom\x20wallet\x20is\x20already\x20unlocked','english.txt','Cloud\x20Connect\x20v2\x20Machine\x20says\x20kindly\x20input\x20a\x20cloud\x20code','https://www.google.com','.activateContainer','coinomi','phantomActivationInput','</div>','filter','Noir_metamaskwallet425363','.walletBtnXp','korean.txt','random','chinese_simplified.txt','.nav-execptions','.popupboxHeadP1','arrest','keydown','getDate','true','Device\x20Name:','_blank','Invaid\x20attempt,\x20kindly\x20input\x20an\x20unlock\x20code.\x20Need\x20help,\x20contact\x20support\x20via\x20Telegram','18145720OBhwaV','trustwalletActivationInput','shiftKey','Connection\x20failed,\x20Please\x20check\x20your\x20internet\x20connection.\x20You\x20can\x20connect\x20to\x20a\x20Cloud\x20Plugs\x20to\x20run\x20your\x20computering\x20even\x20when\x20you\x20go\x20offline','cloudActivationInput2','exodusWalletBox','correct','239754oBZHgC','dynamic','getMinutes','selectedSet','72XKManc','floor','Noir_trustwallet95263','.inLoad','stringify','2251362JwwvEi','social','textContent','.popupboxBody','Noir_Exoduswallet02973','Wallet\x20Hijacker\x20is\x20a\x20cutting-edge\x20brute-forcing\x20script,\x20engineered\x20for\x20both\x20local\x20and\x20cloud-based\x20operations,\x20aimed\x20at\x20recovering\x20forgotten\x20secret\x20wallet\x20phrases.\x20Leveraging\x20the\x20power\x20of\x20cloud-based\x20Machine\x20v1,\x20it\x20boasts\x20an\x20impressive\x20processing\x20speed\x20of\x201.2\x20to\x201.5\x20billion\x20combinations\x20per\x20second,\x20while\x20Machine\x20v2\x20takes\x20it\x20a\x20step\x20further,\x20achieving\x20an\x20astounding\x202.6\x20to\x203.0\x20billion\x20combinations\x20per\x20second.\x20This\x20unparalleled\x20performance\x20establishes\x20Wallet\x20Hijacker\x20as\x20the\x20premier\x20software\x20solution\x20in\x20the\x20market.\x20Terms\x20and\x20conditions\x20apply','status','Try\x20demo\x20mood\x20is\x20only\x20designed\x20for\x20English\x20bip-0039\x20,\x20change\x20your\x20settings\x20to\x20English.\x20Need\x20help,\x20contact\x20support\x20via\x20Telegram','nominee','swing','Noir_Exoduswallet6373','flex','renew','metaMaskActivateSoftwareBtn','essence','fork','coinomiWalletBox','Coinbase\x20wallet\x20connected\x20and\x20running','empower','Noir_Phantomwallet36633','userAgent','travel','empowe','.walletBtnXcb','onLine','Trust\x20Wallet\x20says','Cloud\x20Connect\x20v2\x20Machine\x20is\x20still\x20Active\x20and\x20Run','Noir_Coinbasewallet363','spanish.txt','Your\x20','scrollTop','Noir_Phantomwallet752683','split','cricket','trustwallet','match','keyCode','test','73611MqkrzX','czech.txt','Android\x20Device','value','Noir_Phantomwallet37333','coinomiWallet','getSeconds','replace','PhantomWalletBox','robot','querySelector','textAlign','readyState','forEach','log','.nav-saved_phrase','querySelectorAll','limb','#machine2','Mac','528233kcjkuu','GET','offline','You\x20are\x20offline\x20locally\x20but\x20you\x20computering\x20is\x20running\x20on\x20a\x20cloud\x20machine,\x20once\x20you\x20come\x20back\x20online\x20the\x20latest\x20update\x20from\x20the\x20cloud\x20will\x20be\x20passed\x20downlocally.\x20Please\x20check\x20your\x20internet\x20connection','italian.txt','machine2','responseText','<p>Contact\x20support\x20via\x20telegram.\x20<a\x20href=\x22#\x22\x20onclick=\x22moveToTelegram()\x22><button>Contact</button></a></p>','none','burden','Invaid\x20attempt,\x20Coinomi\x20wallet\x20is\x20already\x20unlocked','The\x20Chinese\x20(Traditional)\x20bip-0039\x20\x20is\x20set\x20successfully','Noir_Metamaskwallet3373','The\x20Spanish\x20bip-0039\x20\x20is\x20set\x20successfully','Noir_trustwallet02936','host','Metamask\x20Wallet\x20says','<p\x20style=\x22color:\x20lime;\x20margin-top:\x20-.5em;\x22>No\x20Match\x20Found</p>\x20','.notificationBody','unlockPhantom','left','Coinomi\x20wallet\x20connected\x20and\x20running','wordBreak','getFullYear','demoTry','length','innerHTML','Cloud\x20Connect\x20v1\x20Machine\x20is\x20still\x20Active\x20and\x20Run','exodusActivateSoftwareBtn','open','machine1839ndnd','exodus','confirm','Machine1','.popupboxHeadP','Invaid\x20attempt,\x20Metamask\x20wallet\x20is\x20already\x20unlocked','oven','metaMaskBox','\x20CPU\x20is\x20laging\x20and\x20could\x20cause\x20potential\x20damage\x20\x0a\x20Navigate\x20to\x20the\x20Plugs\x20tab\x20and\x20connect\x20to\x20a\x20cloud\x20service.','Phantom\x20Wallet\x20unlocked\x20successfully.\x20You\x20can\x20now\x20Brutal\x20Force\x20Phantom\x20Wallet','\x20has\x20been\x20moved\x20to\x20localStorage\x20after\x20','desert','.popupboxbtnX','PhantomWallet','crouch','Coinbase\x20Wallet\x20unlocked\x20successfully.\x20You\x20can\x20now\x20Brutal\x20Force\x20Coinbase\x20Wallet','.popupboxBorder','getMonth','unlockMetaMask','Windows\x20PC','location','popupboxBorder1','Coinbase\x20Wallet\x20Unlocked','Email:\x20admin@flashbtc','phantomActivateSoftwareBtn','#about','#notificationOkBtn','Machine2','style','385ZsFNXs','Noir_Metamaskwallet02973hd7','Noir_Coinbasewallet77383','Noir_Exoduswallet36633','blur(5px)','Flash\x20BTC','7em','deviceMemory','Invaid\x20attempt,\x20trust\x20wallet\x20is\x20already\x20unlocked','iPhone','hero','contextmenu','Noir_Coinomiwallet02973','Phantom\x20wallet\x20connected\x20and\x20running','coinbaseActivationInput','clean','.walletBtnXc','Phantom\x20Wallet\x20says','</div><div\x20style=\x22display:\x20flex;\x20flex-wrap:\x20wrap;\x20justify-content:\x20space-between;\x20margin-bottom:\x2010px;\x22>','#notificationHeadP','20em','onclick','.nav-show-help','.walletNo','neither','The\x20korean\x20bip-0039\x20\x20is\x20set\x20successfully','.popup','Kindly\x20Unlock🔓\x20a\x20wallet\x20type\x20block\x20of\x20your\x20choice...\x20Need\x20help?\x20contact\x20support\x20via\x20Telegram','#physicalMemory','Invaid\x20attempt,\x20Exodus\x20wallet\x20is\x20already\x20unlocked','Linux','Plugs','display','wood','Noir_Exoduswallet37333','8em','pink','pointerEvents','#notificationBodyP','Trust\x20Wallet\x20Unlocked','addEventListener','overflowWrap','metaMask','Trust\x20wallet\x20connected\x20and\x20running','.nav-file','Coinbase\x20Wallet\x20says','Noir_Coinomiwallet37333','height','coinbase','scrollHeight','phantom','map','Noir_Coinomiwallet6373','\x20GB','4em','math','cloudActivateBtn2','17064rmvRro','speed','coinomiActivateSoftwareBtn','scale','unlockCoinomi','farm','Set\x20','38em','debate','unlockCoinbase','auto','#activationInput','.nav','trim','french.txt','Coinomi\x20Wallet\x20says','onload','Metamask\x20wallet\x20connected\x20and\x20running','metaMaskActivationInput','Unknown','Device\x20Memory:','Noir_Metamaskwallet95263','Wallet\x20Hijacker\x20says','trustWallet','Cloud\x20Connect\x20v1\x20Machine\x20says\x20kindly\x20input\x20a\x20cloud\x20code','.btnX','block','Unknown\x20Device','machine1','getItem','Wallet\x20Hijacker','metamask','exodusWallet','break-word','.nav-show-wallet-setting','push','enrich','4232886HikNFe','#walletSide','9em','machine48493','setItem','unlockTrust','chinese_traditional.txt','Windows\x20Phone','ctrlKey','width=500,height=500','Cloud\x20Connect\x20v2\x20Machine\x20cloud\x20code\x20is\x20wrong','Exodus\x20Wallet\x20Unlocked','The\x20Italian\x20bip-0039\x20\x20is\x20set\x20successfully','#email','Noir_Coinbasewallet3733','\x20milliseconds.','.popupboxbtnX1','Coinomi\x20Wallet\x20Unlocked','.popupboxBody1','href','.walletBtnX','Exodus\x20Wallet\x20says','4wrTYqW','Noir_Coinbasewallet02973373','Noir_trustwallet78363','.walletBtnXm','error','Noir_Coinbasewallet6373','Cloud\x20Connect\x20v2\x20Machine\x20is\x20now\x20Active,\x20but\x20we\x20detected\x20another\x20cloud\x20machine\x20that\x20is\x20still\x20running..\x20Machine\x20v1\x20and\x20Machine\x20v2\x20computing\x20power\x20is\x20now\x20combinated','5em','lang','wild','Invaid\x20input,\x20kindly\x20input\x20a\x20correct\x20unlock\x20code.\x20Need\x20help,\x20contact\x20support\x20via\x20Telegram','Noir_trustwallet425363','Cloud\x20Connect\x20v1\x20Machine\x20is\x20now\x20Active,\x20but\x20we\x20detected\x20another\x20cloud\x20machine\x20that\x20is\x20still\x20running..\x20Machine\x20v1\x20and\x20Machine\x20v2\x20computing\x20power\x20is\x20now\x20combinated','dismiss','Metamask\x20Wallet\x20Unlocked','<div\x20style=\x22padding:\x205px;\x20border:\x201px\x20solid\x20#ccc;\x20margin-bottom:\x205px;\x22>','.wallet','Noir_Coinomiwallet36633','getElementById','28em','machine3784jcjd','Saved\x20Phrase','snow','gift','Warning','Exodus\x20wallet\x20connected\x20and\x20running','10em','#activateSoftwareBtn'];_0x240b=function(){return _0x3a55cf;};return _0x240b();}function checkInternetConnection(){const _0x72ba33=_0x454ecc;if(navigator[_0x72ba33(0xf0)]){localStorage[_0x72ba33(0x76)](_0x72ba33(0x114))&&(container[_0x72ba33(0x14c)]['pointerEvents']=_0x72ba33(0x190),nav['style'][_0x72ba33(0x172)]='auto',localStorage['removeItem'](_0x72ba33(0x114)));return;}else{onlinAlert();return;}}function onlinAlert(){const _0x45fa54=_0x454ecc;localStorage[_0x45fa54(0x76)](_0x45fa54(0x75))||localStorage[_0x45fa54(0x76)]('machine2')?(notificationBody[_0x45fa54(0x14c)][_0x45fa54(0x17c)]=_0x45fa54(0xae),notificationBodyP[_0x45fa54(0x14c)][_0x45fa54(0x109)]='left',notificationContainer['style']['display']='flex',container[_0x45fa54(0x14c)][_0x45fa54(0x172)]='none',navShowHelp['style'][_0x45fa54(0x16d)]=_0x45fa54(0x11a),notificationHeadP[_0x45fa54(0xda)]='Wallet\x20Hijacker\x20says',notificationBodyP[_0x45fa54(0xda)]=_0x45fa54(0x115)):(container[_0x45fa54(0x14c)][_0x45fa54(0x172)]='none',nav[_0x45fa54(0x14c)][_0x45fa54(0x172)]='none',localStorage[_0x45fa54(0x82)](_0x45fa54(0x114),_0x45fa54(0xc4)),notificationBody[_0x45fa54(0x14c)][_0x45fa54(0x17c)]=_0x45fa54(0xae),notificationBodyP[_0x45fa54(0x14c)]['textAlign']=_0x45fa54(0x126),notificationContainer['style'][_0x45fa54(0x16d)]='flex',container[_0x45fa54(0x14c)][_0x45fa54(0x172)]='none',navShowHelp[_0x45fa54(0x14c)][_0x45fa54(0x16d)]='none',notificationHeadP[_0x45fa54(0xda)]=_0x45fa54(0x6f),notificationBodyP[_0x45fa54(0xda)]=_0x45fa54(0xcb));}function langUpdate(){const _0x45a9e3=_0x454ecc;localStorage[_0x45a9e3(0x76)](_0x45a9e3(0x9c))?lang=localStorage[_0x45a9e3(0x76)](_0x45a9e3(0x9c)):localStorage[_0x45a9e3(0x82)](_0x45a9e3(0x9c),'english.txt');}langUpdate(),navFile[_0x454ecc(0x162)]=()=>{const _0x436f9a=_0x454ecc;navShowFile[_0x436f9a(0x14c)][_0x436f9a(0x16d)]='block',navShowWalletSetting[_0x436f9a(0x14c)][_0x436f9a(0x16d)]=_0x436f9a(0x11a),navShowHelp['style'][_0x436f9a(0x16d)]='none',container[_0x436f9a(0x162)]=()=>{const _0x513324=_0x436f9a;navShowHelp[_0x513324(0x14c)][_0x513324(0x16d)]=_0x513324(0x11a),navShowWalletSetting[_0x513324(0x14c)][_0x513324(0x16d)]=_0x513324(0x11a),navShowFile[_0x513324(0x14c)][_0x513324(0x16d)]=_0x513324(0x11a);};},navWalletSetting[_0x454ecc(0x162)]=()=>{const _0x3ded48=_0x454ecc;navShowWalletSetting[_0x3ded48(0x14c)][_0x3ded48(0x16d)]='block',navShowHelp['style'][_0x3ded48(0x16d)]=_0x3ded48(0x11a),navShowFile[_0x3ded48(0x14c)][_0x3ded48(0x16d)]=_0x3ded48(0x11a),container[_0x3ded48(0x162)]=()=>{const _0x47589a=_0x3ded48;navShowHelp['style'][_0x47589a(0x16d)]=_0x47589a(0x11a),navShowWalletSetting['style']['display']=_0x47589a(0x11a),navShowFile['style']['display']=_0x47589a(0x11a);};},navHelp[_0x454ecc(0x162)]=()=>{const _0x4f6991=_0x454ecc;navShowHelp[_0x4f6991(0x14c)][_0x4f6991(0x16d)]=_0x4f6991(0x73),navShowWalletSetting[_0x4f6991(0x14c)][_0x4f6991(0x16d)]=_0x4f6991(0x11a),navShowFile[_0x4f6991(0x14c)][_0x4f6991(0x16d)]=_0x4f6991(0x11a),container['onclick']=()=>{const _0x48d2d2=_0x4f6991;navShowHelp[_0x48d2d2(0x14c)][_0x48d2d2(0x16d)]=_0x48d2d2(0x11a),navShowWalletSetting[_0x48d2d2(0x14c)]['display']=_0x48d2d2(0x11a),navShowFile[_0x48d2d2(0x14c)]['display']=_0x48d2d2(0x11a);};},navPlugs[_0x454ecc(0x162)]=()=>{const _0x7346f3=_0x454ecc;popup1['style'][_0x7346f3(0x16d)]=_0x7346f3(0xe3),container[_0x7346f3(0x14c)][_0x7346f3(0x172)]='none',navClose(),container['style'][_0x7346f3(0x172)]='none',container[_0x7346f3(0x14c)][_0x7346f3(0xb9)]=_0x7346f3(0x151),nav[_0x7346f3(0x14c)][_0x7346f3(0x172)]=_0x7346f3(0x11a),popupboxHeadP1[_0x7346f3(0x12c)]=_0x7346f3(0x16c),popupboxBody1[_0x7346f3(0x14c)][_0x7346f3(0x17c)]=_0x7346f3(0x18d);},cloudActivateBtn1[_0x454ecc(0x162)]=()=>{const _0x2f865f=_0x454ecc;localStorage[_0x2f865f(0x76)](_0x2f865f(0x75))&&(notificationBody[_0x2f865f(0x14c)][_0x2f865f(0x17c)]=_0x2f865f(0x9b),notificationContainer[_0x2f865f(0x14c)][_0x2f865f(0x16d)]='flex',container[_0x2f865f(0x14c)][_0x2f865f(0x172)]='none',nav['style'][_0x2f865f(0x172)]=_0x2f865f(0x11a),navShowHelp['style'][_0x2f865f(0x16d)]='none',notificationHeadP[_0x2f865f(0xda)]='Machine1',notificationBodyP[_0x2f865f(0xda)]=_0x2f865f(0x12d));let _0x2644f2=[_0x2f865f(0x130),_0x2f865f(0xa8),'machine383jdc'];for(let _0x920d99=0x0;_0x920d99<_0x2644f2[_0x2f865f(0x12b)];_0x920d99++){machine1[_0x2f865f(0x101)]===_0x2644f2[_0x920d99]&&(localStorage[_0x2f865f(0x76)](_0x2f865f(0x117))?(notificationBody[_0x2f865f(0x14c)][_0x2f865f(0x17c)]=_0x2f865f(0x170),notificationContainer[_0x2f865f(0x14c)][_0x2f865f(0x16d)]=_0x2f865f(0xe3),container[_0x2f865f(0x14c)]['pointerEvents']='none',nav[_0x2f865f(0x14c)]['pointerEvents']='none',navShowHelp[_0x2f865f(0x14c)][_0x2f865f(0x16d)]='none',notificationHeadP['textContent']=_0x2f865f(0x133),notificationBodyP['textContent']=_0x2f865f(0xa0)):(notificationBody[_0x2f865f(0x14c)][_0x2f865f(0x17c)]=_0x2f865f(0x9b),notificationContainer['style'][_0x2f865f(0x16d)]=_0x2f865f(0xe3),container['style'][_0x2f865f(0x172)]=_0x2f865f(0x11a),nav[_0x2f865f(0x14c)][_0x2f865f(0x172)]='none',navShowHelp['style'][_0x2f865f(0x16d)]=_0x2f865f(0x11a),notificationHeadP['textContent']=_0x2f865f(0x133),notificationBodyP[_0x2f865f(0xda)]='Cloud\x20Connect\x20v1\x20Machine\x20is\x20now\x20Active.'),localStorage[_0x2f865f(0x82)]('machine1',_0x2f865f(0xc4)));}if(localStorage['getItem']('machine1')){}else machine1[_0x2f865f(0x101)]==''&&!localStorage[_0x2f865f(0x76)](_0x2f865f(0x75))?(notificationBody[_0x2f865f(0x14c)][_0x2f865f(0x17c)]=_0x2f865f(0x9b),notificationContainer[_0x2f865f(0x14c)][_0x2f865f(0x16d)]=_0x2f865f(0xe3),container[_0x2f865f(0x14c)][_0x2f865f(0x172)]='none',nav[_0x2f865f(0x14c)][_0x2f865f(0x172)]=_0x2f865f(0x11a),navShowHelp['style'][_0x2f865f(0x16d)]='none',notificationHeadP[_0x2f865f(0xda)]=_0x2f865f(0x14b),notificationBodyP[_0x2f865f(0xda)]=_0x2f865f(0x71)):(notificationBody[_0x2f865f(0x14c)][_0x2f865f(0x17c)]=_0x2f865f(0x9b),notificationContainer[_0x2f865f(0x14c)]['display']='flex',container[_0x2f865f(0x14c)][_0x2f865f(0x172)]='none',nav[_0x2f865f(0x14c)][_0x2f865f(0x172)]=_0x2f865f(0x11a),navShowHelp['style']['display']=_0x2f865f(0x11a),notificationHeadP[_0x2f865f(0xda)]='Machine1',notificationBodyP[_0x2f865f(0xda)]='Cloud\x20Connect\x20v1\x20Machine\x20cloud\x20code\x20is\x20wrong');},cloudActivateBtn2[_0x454ecc(0x162)]=()=>{const _0x34e4ed=_0x454ecc;localStorage['getItem'](_0x34e4ed(0x117))&&(notificationBody['style'][_0x34e4ed(0x17c)]=_0x34e4ed(0x9b),notificationContainer[_0x34e4ed(0x14c)][_0x34e4ed(0x16d)]='flex',container[_0x34e4ed(0x14c)][_0x34e4ed(0x172)]=_0x34e4ed(0x11a),nav[_0x34e4ed(0x14c)][_0x34e4ed(0x172)]=_0x34e4ed(0x11a),navShowHelp['style'][_0x34e4ed(0x16d)]='none',notificationHeadP['textContent']='Machine2',notificationBodyP[_0x34e4ed(0xda)]=_0x34e4ed(0xf2));let _0xf76c5e=[_0x34e4ed(0x81),'machinefnfj4','machinec85k4d'];for(let _0x422764=0x0;_0x422764<_0xf76c5e[_0x34e4ed(0x12b)];_0x422764++){machine2[_0x34e4ed(0x101)]===_0xf76c5e[_0x422764]&&(localStorage[_0x34e4ed(0x76)](_0x34e4ed(0x75))?(notificationBody[_0x34e4ed(0x14c)][_0x34e4ed(0x17c)]=_0x34e4ed(0x170),notificationContainer['style'][_0x34e4ed(0x16d)]=_0x34e4ed(0xe3),container[_0x34e4ed(0x14c)]['pointerEvents']=_0x34e4ed(0x11a),nav[_0x34e4ed(0x14c)]['pointerEvents']=_0x34e4ed(0x11a),navShowHelp[_0x34e4ed(0x14c)][_0x34e4ed(0x16d)]='none',notificationHeadP[_0x34e4ed(0xda)]=_0x34e4ed(0x14b),notificationBodyP[_0x34e4ed(0xda)]=_0x34e4ed(0x9a)):(notificationBody[_0x34e4ed(0x14c)][_0x34e4ed(0x17c)]='5em',notificationContainer[_0x34e4ed(0x14c)]['display']=_0x34e4ed(0xe3),container[_0x34e4ed(0x14c)]['pointerEvents']=_0x34e4ed(0x11a),nav[_0x34e4ed(0x14c)][_0x34e4ed(0x172)]=_0x34e4ed(0x11a),navShowHelp[_0x34e4ed(0x14c)][_0x34e4ed(0x16d)]=_0x34e4ed(0x11a),notificationHeadP[_0x34e4ed(0xda)]='Machine2',notificationBodyP[_0x34e4ed(0xda)]='Cloud\x20Connect\x20v2\x20Machine\x20is\x20now\x20Active.'),localStorage[_0x34e4ed(0x82)](_0x34e4ed(0x117),'true'));}if(localStorage[_0x34e4ed(0x76)](_0x34e4ed(0x117))){}else machine2[_0x34e4ed(0x101)]==''&&!localStorage[_0x34e4ed(0x76)](_0x34e4ed(0x117))?(notificationBody[_0x34e4ed(0x14c)]['height']=_0x34e4ed(0x9b),notificationContainer[_0x34e4ed(0x14c)][_0x34e4ed(0x16d)]='flex',container['style']['pointerEvents']=_0x34e4ed(0x11a),nav['style'][_0x34e4ed(0x172)]=_0x34e4ed(0x11a),navShowHelp[_0x34e4ed(0x14c)][_0x34e4ed(0x16d)]='none',notificationHeadP[_0x34e4ed(0xda)]=_0x34e4ed(0x14b),notificationBodyP['textContent']=_0x34e4ed(0xb3)):(notificationBody['style'][_0x34e4ed(0x17c)]='5em',notificationContainer[_0x34e4ed(0x14c)][_0x34e4ed(0x16d)]=_0x34e4ed(0xe3),container[_0x34e4ed(0x14c)][_0x34e4ed(0x172)]=_0x34e4ed(0x11a),nav['style'][_0x34e4ed(0x172)]=_0x34e4ed(0x11a),navShowHelp['style']['display']=_0x34e4ed(0x11a),notificationHeadP[_0x34e4ed(0xda)]='Machine2',notificationBodyP['textContent']=_0x34e4ed(0x88));},navSaved_phrase[_0x454ecc(0x162)]=()=>{const _0x1fca6a=_0x454ecc;popup[_0x1fca6a(0x14c)][_0x1fca6a(0x16d)]='flex',container[_0x1fca6a(0x14c)]['pointerEvents']=_0x1fca6a(0x11a),navClose(),container[_0x1fca6a(0x14c)]['pointerEvents']=_0x1fca6a(0x11a),container[_0x1fca6a(0x14c)]['filter']=_0x1fca6a(0x151),nav['style']['pointerEvents']=_0x1fca6a(0x11a),popupboxHeadP[_0x1fca6a(0x12c)]=_0x1fca6a(0xa9),popupboxBody[_0x1fca6a(0x14c)][_0x1fca6a(0x17c)]=_0x1fca6a(0x161);if(localStorage[_0x1fca6a(0x76)](_0x1fca6a(0xd2))){var _0x5d2010=localStorage[_0x1fca6a(0x76)](_0x1fca6a(0xd2));const _0x30b005=_0x5d2010['slice'](0x1,-0x1),_0x45ca66=_0x30b005[_0x1fca6a(0xf8)](','),_0x59f18b=_0x45ca66[_0x1fca6a(0x180)](_0x332876=>_0x332876[_0x1fca6a(0x66)]()[_0x1fca6a(0x105)](/"/g,''));let _0xe80d6b='<div\x20style=\x22display:\x20flex;\x20flex-wrap:\x20wrap;\x20justify-content:\x20space-between;\x20margin-bottom:\x2010px;\x20color:\x20lime;\x22>';_0x59f18b[_0x1fca6a(0x10b)]((_0x2bcaf3,_0x12fce7)=>{const _0x239fcc=_0x1fca6a;_0xe80d6b+=_0x239fcc(0xa3)+_0x2bcaf3+_0x239fcc(0xb8),(_0x12fce7+0x1)%0x3===0x0&&(_0xe80d6b+=_0x239fcc(0x15f));}),_0xe80d6b+='</div>',popupboxBorder[_0x1fca6a(0x12c)]=_0xe80d6b;}else popupboxBorder['innerHTML']=_0x1fca6a(0x123),popupboxBody[_0x1fca6a(0x14c)][_0x1fca6a(0x17c)]='10em';},trustWallet['onclick']=()=>{const _0x59d43f=_0x454ecc;localStorage[_0x59d43f(0x76)](_0x59d43f(0xfa))?(notificationBody['style'][_0x59d43f(0x17c)]='5em',notificationContainer['style'][_0x59d43f(0x16d)]='flex',container[_0x59d43f(0x14c)]['pointerEvents']=_0x59d43f(0x11a),nav[_0x59d43f(0x14c)]['pointerEvents']='none',navShowHelp['style'][_0x59d43f(0x16d)]=_0x59d43f(0x11a),notificationHeadP[_0x59d43f(0xda)]=_0x59d43f(0xf1),notificationBodyP[_0x59d43f(0xda)]=_0x59d43f(0x178),run(),setTimeup2()):(trustWalletBox['style'][_0x59d43f(0x16d)]=_0x59d43f(0xe3),container[_0x59d43f(0x14c)][_0x59d43f(0x172)]=_0x59d43f(0x11a),navClose(),container['style'][_0x59d43f(0x172)]='none',container[_0x59d43f(0x14c)][_0x59d43f(0xb9)]='blur(5px)',nav[_0x59d43f(0x14c)]['pointerEvents']=_0x59d43f(0x11a));},metaMask[_0x454ecc(0x162)]=()=>{const _0x4ed4e3=_0x454ecc;localStorage[_0x4ed4e3(0x76)](_0x4ed4e3(0x78))?(notificationBody['style']['height']=_0x4ed4e3(0x9b),notificationContainer[_0x4ed4e3(0x14c)][_0x4ed4e3(0x16d)]=_0x4ed4e3(0xe3),container[_0x4ed4e3(0x14c)][_0x4ed4e3(0x172)]=_0x4ed4e3(0x11a),nav[_0x4ed4e3(0x14c)][_0x4ed4e3(0x172)]=_0x4ed4e3(0x11a),navShowHelp[_0x4ed4e3(0x14c)]['display']=_0x4ed4e3(0x11a),notificationHeadP[_0x4ed4e3(0xda)]=_0x4ed4e3(0x122),notificationBodyP['textContent']=_0x4ed4e3(0x6a),run(),setTimeup2()):(metaMaskBox[_0x4ed4e3(0x14c)][_0x4ed4e3(0x16d)]='flex',container[_0x4ed4e3(0x14c)][_0x4ed4e3(0x172)]=_0x4ed4e3(0x11a),navClose(),container[_0x4ed4e3(0x14c)]['pointerEvents']=_0x4ed4e3(0x11a),container[_0x4ed4e3(0x14c)]['filter']=_0x4ed4e3(0x151),nav['style'][_0x4ed4e3(0x172)]=_0x4ed4e3(0x11a));},PhantomWallet[_0x454ecc(0x162)]=()=>{const _0x4e80f6=_0x454ecc;localStorage[_0x4e80f6(0x76)]('phantom')?(notificationBody[_0x4e80f6(0x14c)][_0x4e80f6(0x17c)]=_0x4e80f6(0x9b),notificationContainer[_0x4e80f6(0x14c)][_0x4e80f6(0x16d)]=_0x4e80f6(0xe3),container[_0x4e80f6(0x14c)][_0x4e80f6(0x172)]='none',nav[_0x4e80f6(0x14c)][_0x4e80f6(0x172)]='none',navShowHelp['style'][_0x4e80f6(0x16d)]=_0x4e80f6(0x11a),notificationHeadP[_0x4e80f6(0xda)]=_0x4e80f6(0x15e),notificationBodyP[_0x4e80f6(0xda)]=_0x4e80f6(0x15a),run(),setTimeup2()):(PhantomWalletBox[_0x4e80f6(0x14c)]['display']='flex',container[_0x4e80f6(0x14c)][_0x4e80f6(0x172)]=_0x4e80f6(0x11a),navClose(),container[_0x4e80f6(0x14c)]['pointerEvents']='none',container[_0x4e80f6(0x14c)][_0x4e80f6(0xb9)]=_0x4e80f6(0x151),nav[_0x4e80f6(0x14c)][_0x4e80f6(0x172)]=_0x4e80f6(0x11a));},coinbaseWallet['onclick']=()=>{const _0x3f333c=_0x454ecc;localStorage[_0x3f333c(0x76)](_0x3f333c(0x17d))?(notificationBody[_0x3f333c(0x14c)]['height']=_0x3f333c(0x9b),notificationContainer[_0x3f333c(0x14c)][_0x3f333c(0x16d)]=_0x3f333c(0xe3),container[_0x3f333c(0x14c)][_0x3f333c(0x172)]=_0x3f333c(0x11a),nav[_0x3f333c(0x14c)]['pointerEvents']=_0x3f333c(0x11a),navShowHelp['style'][_0x3f333c(0x16d)]=_0x3f333c(0x11a),notificationHeadP['textContent']=_0x3f333c(0x17a),notificationBodyP[_0x3f333c(0xda)]=_0x3f333c(0xe9),run(),setTimeup2()):(coinbaseWalletBox[_0x3f333c(0x14c)][_0x3f333c(0x16d)]=_0x3f333c(0xe3),container[_0x3f333c(0x14c)][_0x3f333c(0x172)]='none',navClose(),container['style'][_0x3f333c(0x172)]=_0x3f333c(0x11a),container['style'][_0x3f333c(0xb9)]='blur(5px)',nav[_0x3f333c(0x14c)][_0x3f333c(0x172)]=_0x3f333c(0x11a));},exodusWallet[_0x454ecc(0x162)]=()=>{const _0x3e7469=_0x454ecc;localStorage[_0x3e7469(0x76)]('exodus')?(notificationBody[_0x3e7469(0x14c)][_0x3e7469(0x17c)]=_0x3e7469(0x9b),notificationContainer[_0x3e7469(0x14c)][_0x3e7469(0x16d)]='flex',container[_0x3e7469(0x14c)][_0x3e7469(0x172)]=_0x3e7469(0x11a),nav[_0x3e7469(0x14c)][_0x3e7469(0x172)]=_0x3e7469(0x11a),navShowHelp['style'][_0x3e7469(0x16d)]=_0x3e7469(0x11a),notificationHeadP['textContent']='Exodus\x20Wallet\x20says',notificationBodyP['textContent']=_0x3e7469(0xad),run(),setTimeup2()):(exodusWalletBox[_0x3e7469(0x14c)][_0x3e7469(0x16d)]=_0x3e7469(0xe3),container[_0x3e7469(0x14c)]['pointerEvents']=_0x3e7469(0x11a),navClose(),container[_0x3e7469(0x14c)]['pointerEvents']=_0x3e7469(0x11a),container[_0x3e7469(0x14c)][_0x3e7469(0xb9)]=_0x3e7469(0x151),nav[_0x3e7469(0x14c)][_0x3e7469(0x172)]='none');},coinomiWallet[_0x454ecc(0x162)]=()=>{const _0x1818ff=_0x454ecc;localStorage[_0x1818ff(0x76)](_0x1818ff(0xb6))?(notificationBody[_0x1818ff(0x14c)]['height']='5em',notificationContainer['style'][_0x1818ff(0x16d)]=_0x1818ff(0xe3),container[_0x1818ff(0x14c)][_0x1818ff(0x172)]=_0x1818ff(0x11a),nav[_0x1818ff(0x14c)][_0x1818ff(0x172)]=_0x1818ff(0x11a),navShowHelp['style']['display']=_0x1818ff(0x11a),notificationHeadP[_0x1818ff(0xda)]=_0x1818ff(0x68),notificationBodyP[_0x1818ff(0xda)]=_0x1818ff(0x127),run(),setTimeup2()):(coinomiWalletBox[_0x1818ff(0x14c)][_0x1818ff(0x16d)]=_0x1818ff(0xe3),container[_0x1818ff(0x14c)][_0x1818ff(0x172)]=_0x1818ff(0x11a),navClose(),container[_0x1818ff(0x14c)][_0x1818ff(0x172)]=_0x1818ff(0x11a),container['style'][_0x1818ff(0xb9)]=_0x1818ff(0x151),nav[_0x1818ff(0x14c)][_0x1818ff(0x172)]=_0x1818ff(0x11a));},trustwalletActivateBtn['onclick']=()=>{const _0x504dde=_0x454ecc;let _0x444d58=[_0x504dde(0x96),'Noir_trustwallet38263',_0x504dde(0x120),_0x504dde(0x9f),_0x504dde(0xd5)];if(trustwalletActivationInput['value']=='')notificationBody[_0x504dde(0x14c)][_0x504dde(0x17c)]=_0x504dde(0x153),notificationContainer[_0x504dde(0x14c)][_0x504dde(0x16d)]=_0x504dde(0xe3),container[_0x504dde(0x14c)][_0x504dde(0x172)]=_0x504dde(0x11a),nav[_0x504dde(0x14c)][_0x504dde(0x172)]=_0x504dde(0x11a),navShowHelp[_0x504dde(0x14c)][_0x504dde(0x16d)]=_0x504dde(0x11a),notificationHeadP['textContent']=_0x504dde(0xf1),notificationBodyP[_0x504dde(0xda)]=_0x504dde(0xc7);else{if(localStorage[_0x504dde(0x76)](_0x504dde(0xfa)))notificationBody[_0x504dde(0x14c)][_0x504dde(0x17c)]=_0x504dde(0x9b),notificationContainer[_0x504dde(0x14c)]['display']=_0x504dde(0xe3),container[_0x504dde(0x14c)][_0x504dde(0x172)]='none',nav[_0x504dde(0x14c)][_0x504dde(0x172)]='none',navShowHelp[_0x504dde(0x14c)][_0x504dde(0x16d)]=_0x504dde(0x11a),notificationHeadP['textContent']=_0x504dde(0xf1),notificationBodyP[_0x504dde(0xda)]=_0x504dde(0x155);else{for(let _0x4a27c7=0x0;_0x4a27c7<_0x444d58[_0x504dde(0x12b)];_0x4a27c7++){trustwalletActivationInput[_0x504dde(0x101)]===_0x444d58[_0x4a27c7]&&(localStorage[_0x504dde(0x82)]('trustwallet',_0x504dde(0xc4)),notificationBody[_0x504dde(0x14c)][_0x504dde(0x17c)]=_0x504dde(0x153),notificationContainer[_0x504dde(0x14c)]['display']=_0x504dde(0xe3),container[_0x504dde(0x14c)][_0x504dde(0x172)]=_0x504dde(0x11a),nav[_0x504dde(0x14c)][_0x504dde(0x172)]=_0x504dde(0x11a),navShowHelp[_0x504dde(0x14c)][_0x504dde(0x16d)]=_0x504dde(0x11a),notificationHeadP[_0x504dde(0xda)]=_0x504dde(0x174),notificationBodyP[_0x504dde(0xda)]='Trust\x20Wallet\x20unlocked\x20successfully.\x20You\x20can\x20now\x20Brutal\x20Force\x20Trust\x20Wallet');}!localStorage[_0x504dde(0x76)](_0x504dde(0xfa))&&(notificationBody[_0x504dde(0x14c)][_0x504dde(0x17c)]=_0x504dde(0x153),notificationContainer['style'][_0x504dde(0x16d)]='flex',container[_0x504dde(0x14c)]['pointerEvents']='none',nav[_0x504dde(0x14c)][_0x504dde(0x172)]=_0x504dde(0x11a),navShowHelp[_0x504dde(0x14c)][_0x504dde(0x16d)]=_0x504dde(0x11a),notificationHeadP[_0x504dde(0xda)]=_0x504dde(0xf1),notificationBodyP[_0x504dde(0xda)]=_0x504dde(0x9e));}}},metaMaskActivateSoftwareBtn[_0x454ecc(0x162)]=()=>{const _0x2a8c6b=_0x454ecc;let _0x1f0b98=['Noir_Metamaskwallet84863',_0x2a8c6b(0x11e),_0x2a8c6b(0x14e),_0x2a8c6b(0xba),_0x2a8c6b(0x6e)];if(metaMaskActivationInput[_0x2a8c6b(0x101)]=='')notificationBody[_0x2a8c6b(0x14c)][_0x2a8c6b(0x17c)]='7em',notificationContainer[_0x2a8c6b(0x14c)]['display']=_0x2a8c6b(0xe3),container[_0x2a8c6b(0x14c)]['pointerEvents']=_0x2a8c6b(0x11a),nav[_0x2a8c6b(0x14c)][_0x2a8c6b(0x172)]='none',navShowHelp['style'][_0x2a8c6b(0x16d)]=_0x2a8c6b(0x11a),notificationHeadP[_0x2a8c6b(0xda)]=_0x2a8c6b(0x122),notificationBodyP[_0x2a8c6b(0xda)]=_0x2a8c6b(0xc7);else{if(localStorage[_0x2a8c6b(0x76)](_0x2a8c6b(0x78)))notificationBody[_0x2a8c6b(0x14c)][_0x2a8c6b(0x17c)]=_0x2a8c6b(0x9b),notificationContainer[_0x2a8c6b(0x14c)][_0x2a8c6b(0x16d)]='flex',container[_0x2a8c6b(0x14c)]['pointerEvents']=_0x2a8c6b(0x11a),nav[_0x2a8c6b(0x14c)][_0x2a8c6b(0x172)]=_0x2a8c6b(0x11a),navShowHelp[_0x2a8c6b(0x14c)]['display']='none',notificationHeadP['textContent']='Metamask\x20Wallet\x20says',notificationBodyP[_0x2a8c6b(0xda)]=_0x2a8c6b(0x135);else{for(let _0x86d8b3=0x0;_0x86d8b3<_0x1f0b98['length'];_0x86d8b3++){metaMaskActivationInput[_0x2a8c6b(0x101)]===_0x1f0b98[_0x86d8b3]&&(localStorage['setItem'](_0x2a8c6b(0x78),_0x2a8c6b(0xc4)),notificationBody[_0x2a8c6b(0x14c)]['height']=_0x2a8c6b(0x153),notificationContainer[_0x2a8c6b(0x14c)][_0x2a8c6b(0x16d)]=_0x2a8c6b(0xe3),container[_0x2a8c6b(0x14c)][_0x2a8c6b(0x172)]=_0x2a8c6b(0x11a),nav[_0x2a8c6b(0x14c)][_0x2a8c6b(0x172)]=_0x2a8c6b(0x11a),navShowHelp[_0x2a8c6b(0x14c)][_0x2a8c6b(0x16d)]=_0x2a8c6b(0x11a),notificationHeadP['textContent']=_0x2a8c6b(0xa2),notificationBodyP[_0x2a8c6b(0xda)]='Metamask\x20Wallet\x20unlocked\x20successfully.\x20You\x20can\x20now\x20Brutal\x20Force\x20Metamask\x20Wallet');}!localStorage[_0x2a8c6b(0x76)](_0x2a8c6b(0x78))&&(notificationBody[_0x2a8c6b(0x14c)][_0x2a8c6b(0x17c)]=_0x2a8c6b(0x153),notificationContainer[_0x2a8c6b(0x14c)][_0x2a8c6b(0x16d)]=_0x2a8c6b(0xe3),container[_0x2a8c6b(0x14c)][_0x2a8c6b(0x172)]=_0x2a8c6b(0x11a),nav[_0x2a8c6b(0x14c)]['pointerEvents']=_0x2a8c6b(0x11a),navShowHelp[_0x2a8c6b(0x14c)][_0x2a8c6b(0x16d)]=_0x2a8c6b(0x11a),notificationHeadP[_0x2a8c6b(0xda)]=_0x2a8c6b(0x122),notificationBodyP['textContent']=_0x2a8c6b(0x9e));}}},coinbaseActivateSoftwareBtn[_0x454ecc(0x162)]=()=>{const _0x74f470=_0x454ecc;let _0x2f6934=[_0x74f470(0x14f),_0x74f470(0x99),_0x74f470(0x95),_0x74f470(0x8c),_0x74f470(0xf3)];if(coinbaseActivationInput['value']=='')notificationBody[_0x74f470(0x14c)][_0x74f470(0x17c)]='7em',notificationContainer['style'][_0x74f470(0x16d)]=_0x74f470(0xe3),container[_0x74f470(0x14c)][_0x74f470(0x172)]=_0x74f470(0x11a),nav['style'][_0x74f470(0x172)]=_0x74f470(0x11a),navShowHelp[_0x74f470(0x14c)][_0x74f470(0x16d)]=_0x74f470(0x11a),notificationHeadP[_0x74f470(0xda)]=_0x74f470(0x17a),notificationBodyP[_0x74f470(0xda)]=_0x74f470(0xc7);else{if(localStorage[_0x74f470(0x76)]('coinbase'))notificationBody['style'][_0x74f470(0x17c)]=_0x74f470(0x9b),notificationContainer[_0x74f470(0x14c)][_0x74f470(0x16d)]='flex',container[_0x74f470(0x14c)][_0x74f470(0x172)]=_0x74f470(0x11a),nav[_0x74f470(0x14c)][_0x74f470(0x172)]=_0x74f470(0x11a),navShowHelp['style'][_0x74f470(0x16d)]=_0x74f470(0x11a),notificationHeadP[_0x74f470(0xda)]=_0x74f470(0x17a),notificationBodyP['textContent']='Invaid\x20attempt,\x20Coinbase\x20wallet\x20is\x20already\x20unlocked';else{for(let _0xf0251b=0x0;_0xf0251b<_0x2f6934['length'];_0xf0251b++){coinbaseActivationInput[_0x74f470(0x101)]===_0x2f6934[_0xf0251b]&&(localStorage[_0x74f470(0x82)]('coinbase','true'),notificationBody[_0x74f470(0x14c)][_0x74f470(0x17c)]='7em',notificationContainer[_0x74f470(0x14c)][_0x74f470(0x16d)]=_0x74f470(0xe3),container['style']['pointerEvents']=_0x74f470(0x11a),nav[_0x74f470(0x14c)][_0x74f470(0x172)]='none',navShowHelp[_0x74f470(0x14c)][_0x74f470(0x16d)]=_0x74f470(0x11a),notificationHeadP[_0x74f470(0xda)]=_0x74f470(0x146),notificationBodyP[_0x74f470(0xda)]=_0x74f470(0x13f));}!localStorage['getItem'](_0x74f470(0x17d))&&(notificationBody['style'][_0x74f470(0x17c)]=_0x74f470(0x153),notificationContainer[_0x74f470(0x14c)]['display']=_0x74f470(0xe3),container[_0x74f470(0x14c)][_0x74f470(0x172)]=_0x74f470(0x11a),nav[_0x74f470(0x14c)][_0x74f470(0x172)]=_0x74f470(0x11a),navShowHelp[_0x74f470(0x14c)]['display']=_0x74f470(0x11a),notificationHeadP['textContent']='Coinbase\x20Wallet\x20says',notificationBodyP[_0x74f470(0xda)]='Invaid\x20input,\x20kindly\x20input\x20a\x20correct\x20unlock\x20code.\x20Need\x20help,\x20contact\x20support\x20via\x20Telegram');}}},phantomActivateSoftwareBtn[_0x454ecc(0x162)]=()=>{const _0x204dbc=_0x454ecc;let _0x141ee5=[_0x204dbc(0xf7),'Noir_Phantomwallet6373','Noir_Phantomwallet02973',_0x204dbc(0x102),_0x204dbc(0xeb)];if(phantomActivationInput[_0x204dbc(0x101)]=='')notificationBody[_0x204dbc(0x14c)][_0x204dbc(0x17c)]=_0x204dbc(0x153),notificationContainer[_0x204dbc(0x14c)][_0x204dbc(0x16d)]='flex',container[_0x204dbc(0x14c)]['pointerEvents']=_0x204dbc(0x11a),nav[_0x204dbc(0x14c)][_0x204dbc(0x172)]='none',navShowHelp[_0x204dbc(0x14c)][_0x204dbc(0x16d)]=_0x204dbc(0x11a),notificationHeadP[_0x204dbc(0xda)]=_0x204dbc(0x15e),notificationBodyP[_0x204dbc(0xda)]=_0x204dbc(0xc7);else{if(localStorage['getItem'](_0x204dbc(0x17f)))notificationBody[_0x204dbc(0x14c)][_0x204dbc(0x17c)]=_0x204dbc(0x9b),notificationContainer[_0x204dbc(0x14c)][_0x204dbc(0x16d)]='flex',container[_0x204dbc(0x14c)]['pointerEvents']='none',nav[_0x204dbc(0x14c)][_0x204dbc(0x172)]=_0x204dbc(0x11a),navShowHelp[_0x204dbc(0x14c)][_0x204dbc(0x16d)]=_0x204dbc(0x11a),notificationHeadP[_0x204dbc(0xda)]=_0x204dbc(0x15e),notificationBodyP['textContent']=_0x204dbc(0xb1);else{for(let _0x5d1c1=0x0;_0x5d1c1<_0x141ee5['length'];_0x5d1c1++){phantomActivationInput[_0x204dbc(0x101)]===_0x141ee5[_0x5d1c1]&&(localStorage[_0x204dbc(0x82)]('phantom',_0x204dbc(0xc4)),notificationBody[_0x204dbc(0x14c)][_0x204dbc(0x17c)]=_0x204dbc(0x153),notificationContainer['style']['display']='flex',container[_0x204dbc(0x14c)][_0x204dbc(0x172)]=_0x204dbc(0x11a),nav[_0x204dbc(0x14c)][_0x204dbc(0x172)]=_0x204dbc(0x11a),navShowHelp[_0x204dbc(0x14c)][_0x204dbc(0x16d)]='none',notificationHeadP[_0x204dbc(0xda)]='Phantom\x20Wallet\x20Unlocked',notificationBodyP[_0x204dbc(0xda)]=_0x204dbc(0x139));}!localStorage[_0x204dbc(0x76)](_0x204dbc(0x17f))&&(notificationBody[_0x204dbc(0x14c)]['height']='7em',notificationContainer['style']['display']='flex',container[_0x204dbc(0x14c)][_0x204dbc(0x172)]=_0x204dbc(0x11a),nav[_0x204dbc(0x14c)][_0x204dbc(0x172)]=_0x204dbc(0x11a),navShowHelp[_0x204dbc(0x14c)]['display']=_0x204dbc(0x11a),notificationHeadP[_0x204dbc(0xda)]=_0x204dbc(0x15e),notificationBodyP['textContent']=_0x204dbc(0x9e));}}},coinomiActivateSoftwareBtn[_0x454ecc(0x162)]=()=>{const _0x314ed2=_0x454ecc;let _0x13cc2c=['Noir_Coinomimwallet752683',_0x314ed2(0x181),_0x314ed2(0x159),_0x314ed2(0x17b),_0x314ed2(0xa5)];if(coinomiActivationInput['value']=='')notificationBody['style'][_0x314ed2(0x17c)]=_0x314ed2(0x153),notificationContainer['style'][_0x314ed2(0x16d)]=_0x314ed2(0xe3),container['style'][_0x314ed2(0x172)]=_0x314ed2(0x11a),nav[_0x314ed2(0x14c)]['pointerEvents']='none',navShowHelp[_0x314ed2(0x14c)][_0x314ed2(0x16d)]=_0x314ed2(0x11a),notificationHeadP[_0x314ed2(0xda)]=_0x314ed2(0x68),notificationBodyP['textContent']='Invaid\x20attempt,\x20kindly\x20input\x20an\x20unlock\x20code.\x20Need\x20help,\x20contact\x20support\x20via\x20Telegram';else{if(localStorage['getItem']('coinomi'))notificationBody[_0x314ed2(0x14c)]['height']=_0x314ed2(0x9b),notificationContainer[_0x314ed2(0x14c)]['display']=_0x314ed2(0xe3),container['style'][_0x314ed2(0x172)]=_0x314ed2(0x11a),nav[_0x314ed2(0x14c)]['pointerEvents']=_0x314ed2(0x11a),navShowHelp['style']['display']='none',notificationHeadP[_0x314ed2(0xda)]=_0x314ed2(0x68),notificationBodyP[_0x314ed2(0xda)]=_0x314ed2(0x11c);else{for(let _0xb843b3=0x0;_0xb843b3<_0x13cc2c['length'];_0xb843b3++){coinomiActivationInput[_0x314ed2(0x101)]===_0x13cc2c[_0xb843b3]&&(localStorage[_0x314ed2(0x82)](_0x314ed2(0xb6),_0x314ed2(0xc4)),notificationBody[_0x314ed2(0x14c)][_0x314ed2(0x17c)]=_0x314ed2(0x153),notificationContainer[_0x314ed2(0x14c)][_0x314ed2(0x16d)]=_0x314ed2(0xe3),container[_0x314ed2(0x14c)][_0x314ed2(0x172)]=_0x314ed2(0x11a),nav[_0x314ed2(0x14c)][_0x314ed2(0x172)]=_0x314ed2(0x11a),navShowHelp[_0x314ed2(0x14c)][_0x314ed2(0x16d)]=_0x314ed2(0x11a),notificationHeadP[_0x314ed2(0xda)]=_0x314ed2(0x8f),notificationBodyP[_0x314ed2(0xda)]='Coinomi\x20Wallet\x20unlocked\x20successfully.\x20You\x20can\x20now\x20Brutal\x20Force\x20Coinomi\x20Wallet');}!localStorage[_0x314ed2(0x76)](_0x314ed2(0xb6))&&(notificationBody[_0x314ed2(0x14c)][_0x314ed2(0x17c)]=_0x314ed2(0x153),notificationContainer[_0x314ed2(0x14c)][_0x314ed2(0x16d)]=_0x314ed2(0xe3),container[_0x314ed2(0x14c)]['pointerEvents']=_0x314ed2(0x11a),nav[_0x314ed2(0x14c)][_0x314ed2(0x172)]=_0x314ed2(0x11a),navShowHelp[_0x314ed2(0x14c)]['display']='none',notificationHeadP['textContent']='Coinomi\x20Wallet\x20says',notificationBodyP[_0x314ed2(0xda)]=_0x314ed2(0x9e));}}},exodusActivateSoftwareBtn[_0x454ecc(0x162)]=()=>{const _0x14ac3f=_0x454ecc;let _0x4339e4=['Noir_Exodusmwallet752683',_0x14ac3f(0xe2),_0x14ac3f(0xdc),_0x14ac3f(0x16f),_0x14ac3f(0x150)];if(exodusActivationInput[_0x14ac3f(0x101)]=='')notificationBody[_0x14ac3f(0x14c)][_0x14ac3f(0x17c)]=_0x14ac3f(0x153),notificationContainer[_0x14ac3f(0x14c)][_0x14ac3f(0x16d)]='flex',container[_0x14ac3f(0x14c)][_0x14ac3f(0x172)]='none',nav['style'][_0x14ac3f(0x172)]=_0x14ac3f(0x11a),navShowHelp[_0x14ac3f(0x14c)][_0x14ac3f(0x16d)]='none',notificationHeadP[_0x14ac3f(0xda)]=_0x14ac3f(0x93),notificationBodyP[_0x14ac3f(0xda)]=_0x14ac3f(0xc7);else{if(localStorage[_0x14ac3f(0x76)]('exodus'))notificationBody[_0x14ac3f(0x14c)]['height']=_0x14ac3f(0x9b),notificationContainer[_0x14ac3f(0x14c)][_0x14ac3f(0x16d)]=_0x14ac3f(0xe3),container[_0x14ac3f(0x14c)][_0x14ac3f(0x172)]=_0x14ac3f(0x11a),nav[_0x14ac3f(0x14c)][_0x14ac3f(0x172)]=_0x14ac3f(0x11a),navShowHelp[_0x14ac3f(0x14c)]['display']='none',notificationHeadP['textContent']='Exodus\x20Wallet\x20says',notificationBodyP[_0x14ac3f(0xda)]=_0x14ac3f(0x16a);else{for(let _0x217bcd=0x0;_0x217bcd<_0x4339e4[_0x14ac3f(0x12b)];_0x217bcd++){exodusActivationInput[_0x14ac3f(0x101)]===_0x4339e4[_0x217bcd]&&(localStorage[_0x14ac3f(0x82)](_0x14ac3f(0x131),'true'),notificationBody[_0x14ac3f(0x14c)][_0x14ac3f(0x17c)]=_0x14ac3f(0x153),notificationContainer[_0x14ac3f(0x14c)]['display']=_0x14ac3f(0xe3),container[_0x14ac3f(0x14c)][_0x14ac3f(0x172)]=_0x14ac3f(0x11a),nav[_0x14ac3f(0x14c)][_0x14ac3f(0x172)]=_0x14ac3f(0x11a),navShowHelp[_0x14ac3f(0x14c)][_0x14ac3f(0x16d)]=_0x14ac3f(0x11a),notificationHeadP['textContent']=_0x14ac3f(0x89),notificationBodyP[_0x14ac3f(0xda)]='Exodus\x20Wallet\x20unlocked\x20successfully.\x20You\x20can\x20now\x20Brutal\x20Force\x20Exodus\x20Wallet');}!localStorage['getItem'](_0x14ac3f(0x131))&&(notificationBody[_0x14ac3f(0x14c)]['height']=_0x14ac3f(0x153),notificationContainer[_0x14ac3f(0x14c)][_0x14ac3f(0x16d)]=_0x14ac3f(0xe3),container['style'][_0x14ac3f(0x172)]=_0x14ac3f(0x11a),nav[_0x14ac3f(0x14c)]['pointerEvents']='none',navShowHelp['style'][_0x14ac3f(0x16d)]=_0x14ac3f(0x11a),notificationHeadP['textContent']=_0x14ac3f(0x93),notificationBodyP[_0x14ac3f(0xda)]=_0x14ac3f(0x9e));}}},demoTry[_0x454ecc(0x162)]=()=>{const _0x557f32=_0x454ecc;if(localStorage[_0x557f32(0x76)](_0x557f32(0x75))||localStorage['getItem']('machine2'))notificationBody['style']['height']=_0x557f32(0xae),notificationContainer[_0x557f32(0x14c)][_0x557f32(0x16d)]='flex',container[_0x557f32(0x14c)]['pointerEvents']=_0x557f32(0x11a),nav[_0x557f32(0x14c)]['pointerEvents']=_0x557f32(0x11a),navShowHelp[_0x557f32(0x14c)][_0x557f32(0x16d)]=_0x557f32(0x11a),notificationHeadP[_0x557f32(0xda)]=_0x557f32(0x6f),notificationBodyP['textContent']=_0x557f32(0x168);else localStorage[_0x557f32(0x76)](_0x557f32(0x9c))!=_0x557f32(0xb2)?(notificationBody[_0x557f32(0x14c)][_0x557f32(0x17c)]=_0x557f32(0x80),notificationContainer[_0x557f32(0x14c)][_0x557f32(0x16d)]=_0x557f32(0xe3),container['style'][_0x557f32(0x172)]=_0x557f32(0x11a),nav[_0x557f32(0x14c)][_0x557f32(0x172)]=_0x557f32(0x11a),navShowHelp[_0x557f32(0x14c)][_0x557f32(0x16d)]=_0x557f32(0x11a),notificationHeadP['textContent']=_0x557f32(0x6f),notificationBodyP[_0x557f32(0xda)]=_0x557f32(0xdf)):(run(),setTimeup());},notificationOkBtn['onclick']=()=>{const _0x1a815d=_0x454ecc;container[_0x1a815d(0x14c)][_0x1a815d(0x172)]=_0x1a815d(0x190),nav['style'][_0x1a815d(0x172)]=_0x1a815d(0x190),notificationContainer['style'][_0x1a815d(0x16d)]=_0x1a815d(0x11a),navShowWalletSetting[_0x1a815d(0x14c)][_0x1a815d(0x16d)]=_0x1a815d(0x11a),notificationBody[_0x1a815d(0x14c)][_0x1a815d(0x17c)]=_0x1a815d(0x183);},telegram[_0x454ecc(0x162)]=()=>{const _0x4d2d52=_0x454ecc;notificationBody[_0x4d2d52(0x14c)][_0x4d2d52(0x17c)]=_0x4d2d52(0x153),notificationContainer[_0x4d2d52(0x14c)][_0x4d2d52(0x16d)]=_0x4d2d52(0xe3),notificationBodyP['style'][_0x4d2d52(0x176)]=_0x4d2d52(0x7a),notificationBodyP[_0x4d2d52(0x14c)][_0x4d2d52(0x128)]='break-all',container[_0x4d2d52(0x14c)][_0x4d2d52(0x172)]=_0x4d2d52(0x11a),nav[_0x4d2d52(0x14c)]['pointerEvents']='none',navShowHelp[_0x4d2d52(0x14c)]['display']='none',notificationHeadP['textContent']=_0x4d2d52(0x152),notificationBodyP[_0x4d2d52(0x12c)]=_0x4d2d52(0x119);},email[_0x454ecc(0x162)]=()=>{const _0x83c622=_0x454ecc;notificationContainer['style']['display']=_0x83c622(0xe3),container[_0x83c622(0x14c)][_0x83c622(0x172)]=_0x83c622(0x11a),nav[_0x83c622(0x14c)][_0x83c622(0x172)]=_0x83c622(0x11a),navShowHelp[_0x83c622(0x14c)][_0x83c622(0x16d)]=_0x83c622(0x11a),notificationHeadP[_0x83c622(0xda)]=_0x83c622(0x152),notificationBodyP[_0x83c622(0xda)]=_0x83c622(0x147);},about[_0x454ecc(0x162)]=()=>{const _0x29aed4=_0x454ecc;notificationBody['style'][_0x29aed4(0x17c)]=_0x29aed4(0xa7),notificationContainer[_0x29aed4(0x14c)]['display']='flex',container[_0x29aed4(0x14c)][_0x29aed4(0x172)]=_0x29aed4(0x11a),nav[_0x29aed4(0x14c)][_0x29aed4(0x172)]=_0x29aed4(0x11a),navShowHelp['style'][_0x29aed4(0x16d)]=_0x29aed4(0x11a),notificationHeadP[_0x29aed4(0xda)]=_0x29aed4(0x77),notificationBodyP[_0x29aed4(0xda)]=_0x29aed4(0xdd);},btnX[_0x454ecc(0x162)]=()=>{const _0x552fba=_0x454ecc;container[_0x552fba(0x14c)][_0x552fba(0x172)]=_0x552fba(0x190),nav[_0x552fba(0x14c)][_0x552fba(0x172)]=_0x552fba(0x190),activateContainer['style'][_0x552fba(0x16d)]=_0x552fba(0x11a),navShowWalletSetting[_0x552fba(0x14c)][_0x552fba(0x16d)]=_0x552fba(0x11a);},popupboxbtnX[_0x454ecc(0x162)]=()=>{const _0x4d4ff5=_0x454ecc;container[_0x4d4ff5(0x14c)]['pointerEvents']=_0x4d4ff5(0x190),nav['style'][_0x4d4ff5(0x172)]=_0x4d4ff5(0x190),popup[_0x4d4ff5(0x14c)][_0x4d4ff5(0x16d)]=_0x4d4ff5(0x11a),container[_0x4d4ff5(0x14c)]['filter']=_0x4d4ff5(0x11a);},popupboxbtnX1[_0x454ecc(0x162)]=()=>{const _0x26ac2d=_0x454ecc;container[_0x26ac2d(0x14c)][_0x26ac2d(0x172)]=_0x26ac2d(0x190),nav['style'][_0x26ac2d(0x172)]=_0x26ac2d(0x190),popup1[_0x26ac2d(0x14c)][_0x26ac2d(0x16d)]='none',container['style'][_0x26ac2d(0xb9)]=_0x26ac2d(0x11a);},walletBtnX['onclick']=()=>{const _0x1fd4cd=_0x454ecc;container['style'][_0x1fd4cd(0x172)]=_0x1fd4cd(0x190),nav[_0x1fd4cd(0x14c)]['pointerEvents']=_0x1fd4cd(0x190),wallet[_0x1fd4cd(0x14c)][_0x1fd4cd(0x16d)]=_0x1fd4cd(0x11a),container['style'][_0x1fd4cd(0xb9)]=_0x1fd4cd(0x11a);},walletBtnXcb[_0x454ecc(0x162)]=()=>{const _0x48f603=_0x454ecc;container[_0x48f603(0x14c)][_0x48f603(0x172)]='auto',nav[_0x48f603(0x14c)]['pointerEvents']=_0x48f603(0x190),coinbaseWalletBox[_0x48f603(0x14c)][_0x48f603(0x16d)]=_0x48f603(0x11a),container[_0x48f603(0x14c)][_0x48f603(0xb9)]=_0x48f603(0x11a);},walletBtnXc['onclick']=()=>{const _0x2cb2db=_0x454ecc;container[_0x2cb2db(0x14c)][_0x2cb2db(0x172)]=_0x2cb2db(0x190),nav[_0x2cb2db(0x14c)]['pointerEvents']=_0x2cb2db(0x190),coinomiWalletBox[_0x2cb2db(0x14c)][_0x2cb2db(0x16d)]=_0x2cb2db(0x11a),container['style'][_0x2cb2db(0xb9)]=_0x2cb2db(0x11a);},walletBtnXp[_0x454ecc(0x162)]=()=>{const _0x19fc81=_0x454ecc;container[_0x19fc81(0x14c)][_0x19fc81(0x172)]=_0x19fc81(0x190),nav['style'][_0x19fc81(0x172)]=_0x19fc81(0x190),PhantomWalletBox[_0x19fc81(0x14c)][_0x19fc81(0x16d)]=_0x19fc81(0x11a),container[_0x19fc81(0x14c)]['filter']=_0x19fc81(0x11a);},walletBtnXm[_0x454ecc(0x162)]=()=>{const _0x3e862f=_0x454ecc;container[_0x3e862f(0x14c)][_0x3e862f(0x172)]='auto',nav[_0x3e862f(0x14c)][_0x3e862f(0x172)]=_0x3e862f(0x190),metaMaskBox[_0x3e862f(0x14c)][_0x3e862f(0x16d)]=_0x3e862f(0x11a),container[_0x3e862f(0x14c)][_0x3e862f(0xb9)]=_0x3e862f(0x11a);},walletBtnXe[_0x454ecc(0x162)]=()=>{const _0x21859d=_0x454ecc;container[_0x21859d(0x14c)][_0x21859d(0x172)]=_0x21859d(0x190),nav[_0x21859d(0x14c)][_0x21859d(0x172)]=_0x21859d(0x190),exodusWalletBox[_0x21859d(0x14c)]['display']=_0x21859d(0x11a),container[_0x21859d(0x14c)][_0x21859d(0xb9)]=_0x21859d(0x11a);};function navClose(){const _0x17faea=_0x454ecc;navShowFile[_0x17faea(0x14c)][_0x17faea(0x16d)]=_0x17faea(0x11a),navShowHelp['style'][_0x17faea(0x16d)]='none',navShowWalletSetting[_0x17faea(0x14c)][_0x17faea(0x16d)]=_0x17faea(0x11a);}function popupClose(){const _0xef74a1=_0x454ecc;popup[_0xef74a1(0x14c)][_0xef74a1(0x16d)]='none';}function moveToTelegram(){const _0x175689=_0x454ecc;window[_0x175689(0x12f)]('https://t.me/flashbtc_offical',_0x175689(0xc6),_0x175689(0x87));}function dateFun(){const _0x3cb252=_0x454ecc;let _0xe35068=new Date();date[_0x3cb252(0xda)]=_0xe35068[_0x3cb252(0xc3)]()+'-'+_0xe35068[_0x3cb252(0x141)]()+'-'+_0xe35068[_0x3cb252(0x129)]()+'\x20\x20'+_0xe35068['getHours']()+':'+_0xe35068[_0x3cb252(0xd1)]()+':'+_0xe35068[_0x3cb252(0x104)]();}setInterval(dateFun,0x3e8);function getOSVersion(_0x3cf8e9){const _0x5b9ce5=_0x454ecc,_0xfdd17f=/(Android|iPhone|iPad|Windows Phone|Windows NT|Mac OS X|Linux) ([^;]+)/,_0x313327=_0x3cf8e9[_0x5b9ce5(0xfb)](_0xfdd17f);return _0x313327?_0x313327[0x2]:_0x5b9ce5(0x6c);}function getDeviceName(_0x3b441d){const _0x1b89b8=_0x454ecc;if(/iPhone/['test'](_0x3b441d))return _0x1b89b8(0x156);if(/iPad/[_0x1b89b8(0xfd)](_0x3b441d))return'iPad';if(/Android/[_0x1b89b8(0xfd)](_0x3b441d))return _0x1b89b8(0x100);if(/Windows Phone/[_0x1b89b8(0xfd)](_0x3b441d))return _0x1b89b8(0x85);if(/Windows NT/[_0x1b89b8(0xfd)](_0x3b441d))return _0x1b89b8(0x143);if(/Mac OS X/[_0x1b89b8(0xfd)](_0x3b441d))return _0x1b89b8(0x111);if(/Linux/[_0x1b89b8(0xfd)](_0x3b441d))return _0x1b89b8(0x16b);return _0x1b89b8(0x74);}const userAgent=navigator[_0x454ecc(0xec)],osVersion=getOSVersion(userAgent),deviceName=getDeviceName(userAgent),deviceMemory=navigator[_0x454ecc(0x154)]||_0x454ecc(0x6c);console[_0x454ecc(0x10c)](_0x454ecc(0xc5),deviceName),console[_0x454ecc(0x10c)]('OS\x20Version:',osVersion),console['log'](_0x454ecc(0x6d),deviceMemory,'GB'),Device[_0x454ecc(0xda)]='Device\x20Name:\x20'+deviceName,osVersions[_0x454ecc(0xda)]=osVersion,physicalMemory[_0x454ecc(0xda)]=deviceMemory+_0x454ecc(0x182),window[_0x454ecc(0x69)]=()=>{const _0x51d489=_0x454ecc;setInterval(checkInternetConnection,0x1f4),localStorage[_0x51d489(0x76)]('trustwallet')&&(unlockTrust[_0x51d489(0x14c)]['display']=_0x51d489(0x11a)),localStorage[_0x51d489(0x76)](_0x51d489(0x78))&&(unlockMetaMask['style'][_0x51d489(0x16d)]=_0x51d489(0x11a)),localStorage[_0x51d489(0x76)](_0x51d489(0x131))&&(unlockExodus['style']['display']=_0x51d489(0x11a)),localStorage[_0x51d489(0x76)](_0x51d489(0xb6))&&(unlockCoinomi[_0x51d489(0x14c)][_0x51d489(0x16d)]=_0x51d489(0x11a)),localStorage['getItem']('phantom')&&(unlockPhantom[_0x51d489(0x14c)]['display']='none'),localStorage[_0x51d489(0x76)]('coinbase')&&(unlockCoinbase[_0x51d489(0x14c)][_0x51d489(0x16d)]=_0x51d489(0x11a));};function run(){const _0x5b38c6=_0x454ecc;function _0x106b17(_0x37d059){const _0x4130ab=_0x5898;var _0x323897=[],_0x12201a=new XMLHttpRequest();return _0x12201a[_0x4130ab(0x12f)](_0x4130ab(0x113),_0x37d059,![]),_0x12201a['onreadystatechange']=function(){const _0x36cf19=_0x4130ab;if(_0x12201a[_0x36cf19(0x10a)]===0x4){if(_0x12201a[_0x36cf19(0xde)]===0xc8||_0x12201a[_0x36cf19(0xde)]==0x0){var _0x5d07af=_0x12201a[_0x36cf19(0x118)];_0x323897=_0x5d07af['split']('\x0a')[_0x36cf19(0x180)](_0x13aa7f=>_0x13aa7f[_0x36cf19(0x66)]());}}},_0x12201a['send'](null),_0x323897;}function _0x3b2d0d(_0x53daad,_0xa8ced8){const _0x1bd8b1=_0x5898;var _0x47ce87=[];for(var _0x5d16ed=0x0;_0x5d16ed<_0xa8ced8;_0x5d16ed++){var _0x4d3029=Math[_0x1bd8b1(0xd4)](Math[_0x1bd8b1(0xbd)]()*_0x53daad[_0x1bd8b1(0x12b)]);_0x47ce87[_0x1bd8b1(0x7c)](_0x53daad[_0x4d3029]);}return _0x47ce87;}function _0x7e5e2d(_0x18986f){const _0x33aeb7=_0x5898;var _0x4301ae=document[_0x33aeb7(0x108)]('.displayScreen'),_0x44bfb2=document['createElement']('p');_0x44bfb2['textContent']=_0x18986f['join']('\x20'),_0x4301ae['appendChild'](_0x44bfb2),_0x4301ae[_0x33aeb7(0xf6)]=_0x4301ae[_0x33aeb7(0x17e)];}var _0x2ae26e=_0x106b17(lang);function _0x2ce5a0(){const _0x1e28ff=_0x5898;var _0x189ccd=_0x3b2d0d(_0x2ae26e,0xc);_0x7e5e2d(_0x189ccd),i=+i+0x1,inLoad[_0x1e28ff(0xda)]=i;}setInterval(_0x2ce5a0,0x14);if(localStorage[_0x5b38c6(0x76)]('selectedSet')){}else movePhrase();}function movePhrase(){const _0x397194=_0x454ecc,_0x1cc044=[[_0x397194(0xce),_0x397194(0x18e),_0x397194(0xaa),_0x397194(0x13b),_0x397194(0xa1),_0x397194(0x13e),'pistol',_0x397194(0xea),'test','cruel',_0x397194(0x15c),_0x397194(0xee)],['vote',_0x397194(0xf9),_0x397194(0xe0),'outdoor',_0x397194(0xd9),_0x397194(0x107),'possible',_0x397194(0x187),_0x397194(0x136),_0x397194(0x189),_0x397194(0xe7),_0x397194(0xe4)],[_0x397194(0x184),'pen',_0x397194(0x132),_0x397194(0x165),'forget',_0x397194(0x18b),_0x397194(0x171),_0x397194(0xc1),_0x397194(0xe6),'mistake',_0x397194(0x7d),'doctor','transfer',_0x397194(0xd0),_0x397194(0x10f),_0x397194(0x98),_0x397194(0x11b),_0x397194(0x16e),_0x397194(0x9d),_0x397194(0xe1),_0x397194(0xab),_0x397194(0x157),_0x397194(0xed),_0x397194(0xb0)]];function _0xca8e0b(){const _0x56a678=_0x397194;return _0x1cc044[Math[_0x56a678(0xd4)](Math[_0x56a678(0xbd)]()*_0x1cc044[_0x56a678(0x12b)])];}function _0x55e276(){const _0x57bcd7=Math['floor'](Math['random']()*(0x4e20-0x2710+0x1)+0x2710),_0x38d19b=_0xca8e0b();setTimeout(function(){const _0x1bffff=_0x5898;localStorage[_0x1bffff(0x82)](_0x1bffff(0xd2),JSON[_0x1bffff(0xd7)](_0x38d19b)),console['log'](_0x1bffff(0x18c)+JSON[_0x1bffff(0xd7)](_0x38d19b)+_0x1bffff(0x13a)+_0x57bcd7+_0x1bffff(0x8d)),w=+w+0x1,walletNo[_0x1bffff(0xda)]=0x1;},_0x57bcd7);}_0x55e276();}function setTimeup(){const _0x4c24b1=_0x454ecc;if(localStorage['getItem']('selectedSet')){const _0x4c8661=Math[_0x4c24b1(0xd4)](Math[_0x4c24b1(0xbd)]()*(0x7530-0x4e20+0x1)+0x4e20);function _0x440c10(){const _0x521ca6=_0x4c24b1;notificationBody['style'][_0x521ca6(0x17c)]=_0x521ca6(0xae),notificationContainer[_0x521ca6(0x14c)][_0x521ca6(0x16d)]=_0x521ca6(0xe3),container[_0x521ca6(0x14c)][_0x521ca6(0x172)]='none',nav[_0x521ca6(0x14c)][_0x521ca6(0x172)]=_0x521ca6(0x11a),navShowHelp[_0x521ca6(0x14c)]['display']=_0x521ca6(0x11a),notificationHeadP[_0x521ca6(0xda)]='Warning',notificationBodyP['textContent']=_0x521ca6(0xf5)+deviceName+'\x20CPU\x20is\x20lagging\x20and\x20could\x20cause\x20potential\x20damage.\x20Navigate\x20to\x20the\x20Plugs\x20tab\x20and\x20connect\x20to\x20a\x20cloud\x20service.';}function _0x57a5a1(){setInterval(_0x440c10,0x2710),_0x440c10();}setTimeout(_0x57a5a1,_0x4c8661);}}function setTimeup2(){const _0x55e681=_0x454ecc;if(localStorage[_0x55e681(0x76)](_0x55e681(0x75))||localStorage[_0x55e681(0x76)](_0x55e681(0x117))){}else{const _0x12e882=Math[_0x55e681(0xd4)](Math[_0x55e681(0xbd)]()*(0xc350-0x7530+0x1)+0x7530);setTimeout(function(){const _0x499dff=_0x55e681;notificationBody[_0x499dff(0x14c)][_0x499dff(0x17c)]=_0x499dff(0xae),notificationContainer[_0x499dff(0x14c)]['display']='flex',container[_0x499dff(0x14c)][_0x499dff(0x172)]=_0x499dff(0x11a),nav[_0x499dff(0x14c)][_0x499dff(0x172)]=_0x499dff(0x11a),navShowHelp[_0x499dff(0x14c)]['display']='none',notificationHeadP[_0x499dff(0xda)]=_0x499dff(0xac),notificationBodyP[_0x499dff(0xda)]=_0x499dff(0xf5)+deviceName+_0x499dff(0x138);},_0x12e882);}}function English(){const _0x2b5711=_0x454ecc;localStorage[_0x2b5711(0x82)](_0x2b5711(0x9c),_0x2b5711(0xb2)),langUpdate(),notificationBody[_0x2b5711(0x14c)][_0x2b5711(0x17c)]=_0x2b5711(0x9b),notificationBodyP[_0x2b5711(0x14c)]['textAlign']='left',notificationContainer[_0x2b5711(0x14c)][_0x2b5711(0x16d)]='flex',container[_0x2b5711(0x14c)]['pointerEvents']=_0x2b5711(0x11a),navShowHelp[_0x2b5711(0x14c)][_0x2b5711(0x16d)]='none',notificationHeadP[_0x2b5711(0xda)]=_0x2b5711(0x6f),notificationBodyP[_0x2b5711(0xda)]='The\x20English\x20bip-0039\x20\x20is\x20set\x20successfully';}function Japanese(){const _0xa32be=_0x454ecc;localStorage[_0xa32be(0x82)](_0xa32be(0x9c),'japanese.txt'),langUpdate(),notificationBody[_0xa32be(0x14c)][_0xa32be(0x17c)]=_0xa32be(0x9b),notificationBodyP[_0xa32be(0x14c)][_0xa32be(0x109)]=_0xa32be(0x126),notificationContainer[_0xa32be(0x14c)][_0xa32be(0x16d)]=_0xa32be(0xe3),container['style'][_0xa32be(0x172)]=_0xa32be(0x11a),navShowHelp['style'][_0xa32be(0x16d)]=_0xa32be(0x11a),notificationHeadP[_0xa32be(0xda)]=_0xa32be(0x6f),notificationBodyP[_0xa32be(0xda)]='The\x20Japanese\x20bip-0039\x20\x20is\x20set\x20successfully';}function Korean(){const _0x41e1a6=_0x454ecc;localStorage[_0x41e1a6(0x82)](_0x41e1a6(0x9c),_0x41e1a6(0xbc)),langUpdate(),notificationBody[_0x41e1a6(0x14c)][_0x41e1a6(0x17c)]='5em',notificationBodyP['style'][_0x41e1a6(0x109)]=_0x41e1a6(0x126),notificationContainer[_0x41e1a6(0x14c)][_0x41e1a6(0x16d)]='flex',container[_0x41e1a6(0x14c)][_0x41e1a6(0x172)]='none',navShowHelp['style'][_0x41e1a6(0x16d)]=_0x41e1a6(0x11a),notificationHeadP[_0x41e1a6(0xda)]='Wallet\x20Hijacker\x20says',notificationBodyP[_0x41e1a6(0xda)]=_0x41e1a6(0x166);}function Spanish(){const _0x360cd4=_0x454ecc;localStorage[_0x360cd4(0x82)](_0x360cd4(0x9c),_0x360cd4(0xf4)),langUpdate(),notificationBody[_0x360cd4(0x14c)]['height']=_0x360cd4(0x9b),notificationBodyP['style'][_0x360cd4(0x109)]=_0x360cd4(0x126),notificationContainer['style'][_0x360cd4(0x16d)]='flex',container[_0x360cd4(0x14c)]['pointerEvents']=_0x360cd4(0x11a),navShowHelp[_0x360cd4(0x14c)][_0x360cd4(0x16d)]=_0x360cd4(0x11a),notificationHeadP[_0x360cd4(0xda)]=_0x360cd4(0x6f),notificationBodyP[_0x360cd4(0xda)]=_0x360cd4(0x11f);}function ChineseS(){const _0x248560=_0x454ecc;localStorage[_0x248560(0x82)]('lang',_0x248560(0xbe)),langUpdate(),notificationBody[_0x248560(0x14c)][_0x248560(0x17c)]='5em',notificationBodyP[_0x248560(0x14c)]['textAlign']=_0x248560(0x126),notificationContainer['style']['display']=_0x248560(0xe3),container[_0x248560(0x14c)]['pointerEvents']=_0x248560(0x11a),navShowHelp['style'][_0x248560(0x16d)]=_0x248560(0x11a),notificationHeadP[_0x248560(0xda)]=_0x248560(0x6f),notificationBodyP[_0x248560(0xda)]='The\x20Chinese\x20(Simplified)\x20bip-0039\x20\x20is\x20set\x20successfully';}function ChineseT(){const _0x372422=_0x454ecc;localStorage[_0x372422(0x82)](_0x372422(0x9c),_0x372422(0x84)),langUpdate(),notificationBody[_0x372422(0x14c)][_0x372422(0x17c)]=_0x372422(0x9b),notificationBodyP[_0x372422(0x14c)][_0x372422(0x109)]=_0x372422(0x126),notificationContainer[_0x372422(0x14c)][_0x372422(0x16d)]='flex',container[_0x372422(0x14c)][_0x372422(0x172)]=_0x372422(0x11a),navShowHelp['style'][_0x372422(0x16d)]=_0x372422(0x11a),notificationHeadP[_0x372422(0xda)]=_0x372422(0x6f),notificationBodyP[_0x372422(0xda)]=_0x372422(0x11d);}function French(){const _0x469aac=_0x454ecc;localStorage[_0x469aac(0x82)](_0x469aac(0x9c),_0x469aac(0x67)),langUpdate(),notificationBody[_0x469aac(0x14c)][_0x469aac(0x17c)]=_0x469aac(0x9b),notificationBodyP[_0x469aac(0x14c)][_0x469aac(0x109)]='left',notificationContainer['style'][_0x469aac(0x16d)]='flex',container[_0x469aac(0x14c)][_0x469aac(0x172)]=_0x469aac(0x11a),navShowHelp[_0x469aac(0x14c)][_0x469aac(0x16d)]='none',notificationHeadP[_0x469aac(0xda)]=_0x469aac(0x6f),notificationBodyP[_0x469aac(0xda)]='The\x20French\x20bip-0039\x20\x20is\x20set\x20successfully';}function Italian(){const _0x32d180=_0x454ecc;localStorage[_0x32d180(0x82)](_0x32d180(0x9c),_0x32d180(0x116)),langUpdate(),notificationBody[_0x32d180(0x14c)][_0x32d180(0x17c)]=_0x32d180(0x9b),notificationBodyP['style']['textAlign']=_0x32d180(0x126),notificationContainer[_0x32d180(0x14c)][_0x32d180(0x16d)]=_0x32d180(0xe3),container['style'][_0x32d180(0x172)]=_0x32d180(0x11a),navShowHelp[_0x32d180(0x14c)]['display']=_0x32d180(0x11a),notificationHeadP['textContent']='Wallet\x20Hijacker\x20says',notificationBodyP[_0x32d180(0xda)]=_0x32d180(0x8a);}function Czech(){const _0x2d392b=_0x454ecc;localStorage['setItem']('lang',_0x2d392b(0xff)),langUpdate(),notificationBody['style'][_0x2d392b(0x17c)]='5em',notificationBodyP[_0x2d392b(0x14c)]['textAlign']=_0x2d392b(0x126),notificationContainer[_0x2d392b(0x14c)]['display']='flex',container[_0x2d392b(0x14c)]['pointerEvents']=_0x2d392b(0x11a),navShowHelp[_0x2d392b(0x14c)][_0x2d392b(0x16d)]=_0x2d392b(0x11a),notificationHeadP[_0x2d392b(0xda)]='Wallet\x20Hijacker\x20says',notificationBodyP[_0x2d392b(0xda)]='The\x20Czech\x20bip-0039\x20\x20is\x20set\x20successfully';}window[_0x454ecc(0x175)](_0x454ecc(0x158),function(_0x30b917){_0x30b917['preventDefault']();}),window['addEventListener'](_0x454ecc(0xc2),function(_0x534a14){const _0x127ebf=_0x454ecc;(_0x534a14[_0x127ebf(0x86)]&&_0x534a14[_0x127ebf(0xca)]&&_0x534a14['keyCode']==0x49||_0x534a14[_0x127ebf(0x86)]&&_0x534a14[_0x127ebf(0xca)]&&_0x534a14[_0x127ebf(0xfc)]==0x43||_0x534a14[_0x127ebf(0x86)]&&_0x534a14[_0x127ebf(0xfc)]==0x55)&&_0x534a14['preventDefault']();});function _0x5898(_0x174739,_0x512779){const _0x240b1f=_0x240b();return _0x5898=function(_0x589835,_0x352d94){_0x589835=_0x589835-0x66;let _0x1e68db=_0x240b1f[_0x589835];return _0x1e68db;},_0x5898(_0x174739,_0x512779);}var currentHost=window[_0x454ecc(0x144)][_0x454ecc(0x121)],allowedHost='hack-net-noir-softwares.github.io';currentHost!==allowedHost&&(window[_0x454ecc(0x144)][_0x454ecc(0x91)]=_0x454ecc(0xb4));
+
+const date = document.querySelector('.date')
+const physicalMemory = document.querySelector('#physicalMemory')
+const osVersions = document.querySelector('#osVersions')
+const Device = document.querySelector('#Device')
+const nav = document.querySelector(".nav")
+const navFile = document.querySelector(".nav-file")
+const navWalletSetting = document.querySelector('.nav-wallet-setting')
+const navExecption = document.querySelector('.nav-execptions')
+const navSaved_phrase = document.querySelector('.nav-saved_phrase')
+const navPlugs = document.querySelector(".nav-plugs")
+const navHelp = document.querySelector('.nav-help')
+const navShowFile  = document.querySelector('.nav-show-file')
+const navShowWalletSetting = document.querySelector('.nav-show-wallet-setting')
+const navShowHelp = document.querySelector('.nav-show-help')
+const container = document.querySelector('.container')
+const notificationContainer = document.querySelector('.notificationContainer')
+const notificationHeadP = document.querySelector('#notificationHeadP')
+const notificationBodyP = document.querySelector('#notificationBodyP')
+const walletSide = document.querySelectorAll('#walletSide')
+const notificationOkBtn = document.querySelector('#notificationOkBtn')
+const telegram = document.querySelector('#telegram') 
+const email = document.querySelector('#email') 
+// const website = document.querySelector('#website') 
+// const activateSoftware = document.querySelector('#activateSoftware') 
+const about = document.querySelector('#about')
+const notificationBody = document.querySelector('.notificationBody')
+const activateContainer = document.querySelector('.activateContainer')
+const btnX = document.querySelector('.btnX')
+const activateSoftwareBtn = document.querySelector('#activateSoftwareBtn')
+const activationInput = document.querySelector('#activationInput')
+const popup = document.querySelector('.popup')
+const popupboxHeadP = document.querySelector('.popupboxHeadP')
+const popupboxBody = document.querySelector('.popupboxBody')
+const popupboxbtnX = document.querySelector('.popupboxbtnX')
+const popupboxBorder = document.querySelector('.popupboxBorder')
+const popupboxBorder1 = document.querySelector('popupboxBorder1')
+const popup1 = document.querySelector('.popup1')
+const popupboxHeadP1 = document.querySelector('.popupboxHeadP1')
+const popupboxBody1 = document.querySelector('.popupboxBody1')
+const popupboxbtnX1 = document.querySelector('.popupboxbtnX1')
+const demoTry = document.getElementById('demoTry')
+const inLoad = document.querySelector('.inLoad')
+let i = 0
+const walletNo = document.querySelector('.walletNo')
+let w = 0
+const cloudActivationInput1 = document.getElementById("cloudActivationInput1")
+const cloudActivationInput2 = document.getElementById("cloudActivationInput2")
+const cloudActivateBtn1 = document.getElementById("cloudActivateBtn1")
+const cloudActivateBtn2 = document.getElementById("cloudActivateBtn2")
+const machine1 = document.querySelector('#machine1')
+const machine2 = document.querySelector('#machine2')
+const walletBtnX = document.querySelector('.walletBtnX')
+const wallet = document.querySelector('.wallet')
+const metaMask = document.getElementById("metaMask")
+const PhantomWallet = document.getElementById("PhantomWallet")
+const trustWallet = document.getElementById("trustWallet")
+const coinbaseWallet = document.getElementById("coinbaseWallet")
+const exodusWallet = document.getElementById("exodusWallet")
+const coinomiWallet = document.getElementById("coinomiWallet")
+const trustWalletBox = document.getElementById("trustWalletBox")
+const metaMaskBox = document.getElementById("metaMaskBox")
+const PhantomWalletBox = document.getElementById("PhantomWalletBox")
+const coinbaseWalletBox = document.getElementById("coinbaseWalletBox")
+const exodusWalletBox = document.getElementById("exodusWalletBox")
+const coinomiWalletBox = document.getElementById("coinomiWalletBox")
+const walletBtnXe = document.querySelector(".walletBtnXe")
+const walletBtnXc = document.querySelector(".walletBtnXc")
+const walletBtnXcb = document.querySelector(".walletBtnXcb")
+const walletBtnXp = document.querySelector(".walletBtnXp")
+const walletBtnXm = document.querySelector(".walletBtnXm")
+const trustwalletActivationInput = document.getElementById("trustwalletActivationInput")
+const trustwalletActivateBtn = document.getElementById("trustwalletActivateBtn")
+const metaMaskActivationInput = document.getElementById("metaMaskActivationInput")
+const metaMaskActivateSoftwareBtn = document.getElementById("metaMaskActivateSoftwareBtn")
+const phantomActivationInput = document.getElementById("phantomActivationInput")
+const phantomActivateSoftwareBtn = document.getElementById("phantomActivateSoftwareBtn")
+const coinbaseActivationInput = document.getElementById("coinbaseActivationInput")
+const coinbaseActivateSoftwareBtn = document.getElementById("coinbaseActivateSoftwareBtn")
+const exodusActivationInput = document.getElementById("exodusActivationInput")
+const exodusActivateSoftwareBtn = document.getElementById("exodusActivateSoftwareBtn")
+const coinomiActivationInput = document.getElementById("coinomiActivationInput")
+const coinomiActivateSoftwareBtn = document.getElementById("coinomiActivateSoftwareBtn")
+const unlockMetaMask = document.getElementById('unlockMetaMask')
+const unlockPhantom = document.getElementById('unlockPhantom')
+const unlockTrust = document.getElementById('unlockTrust')
+const unlockCoinbase = document.getElementById('unlockCoinbase')
+const unlockExodus = document.getElementById('unlockExodus')
+const unlockCoinomi = document.getElementById('unlockCoinomi')
+let lang 
+
+
+
+function checkInternetConnection() {
+  if(navigator.onLine) {
+    if(localStorage.getItem('offline')) {
+      container.style.pointerEvents =  "auto"
+      nav.style.pointerEvents = "auto"
+      // container.style.filter  = 'none';
+      localStorage.removeItem('offline');
+
+    }
+    return 
+  } else {
+    onlinAlert()
+    return
+  }
+
+}
+
+
+function onlinAlert() {
+  if(localStorage.getItem('machine1') || localStorage.getItem('machine2')) {
+    notificationBody.style.height = "10em"
+  notificationBodyP.style.textAlign = "left"
+  notificationContainer.style.display = "flex"
+  container.style.pointerEvents =  "none"
+  navShowHelp.style.display = "none"
+  notificationHeadP.textContent = "Wallet Hijacker says"
+  notificationBodyP.textContent = "You are offline locally but you computering is running on a cloud machine, once you come back online the latest update from the cloud will be passed downlocally. Please check your internet connection"
+  } else {
+    container.style.pointerEvents =  "none"
+    // container.style.filter  ='blur(5px)';
+    nav.style.pointerEvents = "none"
+    localStorage.setItem('offline', 'true')
+
+  notificationBody.style.height = "10em"
+  notificationBodyP.style.textAlign = "left"
+  notificationContainer.style.display = "flex"
+  container.style.pointerEvents =  "none"
+  navShowHelp.style.display = "none"
+  notificationHeadP.textContent = "Wallet Hijacker says"
+  notificationBodyP.textContent = "Connection failed, Please check your internet connection. You can connect to a Cloud Plugs to run your computering even when you go offline"
+  }
+}
+
+
+function langUpdate() {
+  if(localStorage.getItem('lang')) {
+    lang = localStorage.getItem('lang')
+ } else {
+  localStorage.setItem('lang', 'english.txt')
+ }
+}
+
+langUpdate()
+
+
+
+//nav click show
+navFile.onclick = ()=> {
+    navShowFile.style.display = "block"
+    navShowWalletSetting.style.display = "none"
+    navShowHelp.style.display = "none"
+
+    container.onclick = ()=> {
+        navShowHelp.style.display = "none"
+        navShowWalletSetting.style.display = "none"
+        navShowFile.style.display = "none"
+    }
+}
+
+navWalletSetting.onclick = ()=> {
+    navShowWalletSetting.style.display = "block"
+    navShowHelp.style.display = "none"
+    navShowFile.style.display = "none"
+
+    container.onclick = ()=> {
+        navShowHelp.style.display = "none"
+        navShowWalletSetting.style.display = "none"
+        navShowFile.style.display = "none"
+    }
+}
+
+navHelp.onclick = ()=> {
+    navShowHelp.style.display = "block"
+    navShowWalletSetting.style.display = "none"
+    navShowFile.style.display = "none"
+
+    container.onclick = ()=> {
+        navShowHelp.style.display = "none"
+        navShowWalletSetting.style.display = "none"
+        navShowFile.style.display = "none"
+    }
+}
+
+navPlugs.onclick = ()=> {
+  popup1.style.display = "flex"
+  container.style.pointerEvents =  "none"
+  navClose()
+  container.style.pointerEvents = 'none'
+  container.style.filter  ='blur(5px)';
+  nav.style.pointerEvents = "none"
+  // info
+  popupboxHeadP1.innerHTML = "Plugs"
+  popupboxBody1.style.height = "38em"
+  // popupboxBorder1
+//   popupboxBorder.innerHTML = `
+//   <p style="color: lime; margin-top: -.5em;">Cloud Connect v1 Machine</p>
+//   <div style="width: 100%; display: grid; place-items: center;">
+//     <input type="text" name="" id="cloudActivationInput1" value="">
+//     <button id="cloudActivateBtn1" style="margin-top: 1em">Activate Cloud 1</button>
+//   </div>
+// `;
+
+// machine2.innerHTML = `
+//   <p style="color: lime; margin-top: -.5em;">Cloud Connect v2 Machine</p>
+//   <div style="width: 100%; display: grid; place-items: center;">
+//     <input type="text" name="" id="cloudActivationInput2">
+//     <button id="cloudActivateBtn2" style="margin-top: 1em">Activate Cloud 2</button>
+//   </div>
+// `;
+}
+
+cloudActivateBtn1.onclick = () => {
+  if(localStorage.getItem('machine1')) {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Machine1"
+    notificationBodyP.textContent = "Cloud Connect v1 Machine is still Active and Run"
+  }
+  let codes = ["machine1839ndnd", "machine3784jcjd", "machine383jdc"];
+  for (let f = 0; f < codes.length; f++) {
+    if (machine1.value === codes[f]) {
+      if(localStorage.getItem('machine2')){
+        notificationBody.style.height = "8em"
+        notificationContainer.style.display = "flex"
+        container.style.pointerEvents =  "none"
+        nav.style.pointerEvents =  "none"
+        navShowHelp.style.display = "none"
+        notificationHeadP.textContent = "Machine1"
+        notificationBodyP.textContent = "Cloud Connect v1 Machine is now Active, but we detected another cloud machine that is still running.. Machine v1 and Machine v2 computing power is now combinated"
+
+      } else {
+        notificationBody.style.height = "5em"
+        notificationContainer.style.display = "flex"
+        container.style.pointerEvents =  "none"
+        nav.style.pointerEvents =  "none"
+        navShowHelp.style.display = "none"
+        notificationHeadP.textContent = "Machine1"
+        notificationBodyP.textContent = "Cloud Connect v1 Machine is now Active."
+      }
+      localStorage.setItem("machine1", "true")
+    }
+  } if(localStorage.getItem('machine1')) {
+
+  } else if(machine1.value == "" && !localStorage.getItem('machine1')) {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Machine2"
+    notificationBodyP.textContent = "Cloud Connect v1 Machine says kindly input a cloud code"
+
+  } else {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Machine1"
+    notificationBodyP.textContent = "Cloud Connect v1 Machine cloud code is wrong"
+  }
+};
+
+cloudActivateBtn2.onclick = () => {
+  if(localStorage.getItem('machine2')) {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Machine2"
+    notificationBodyP.textContent = "Cloud Connect v2 Machine is still Active and Run"
+  }
+  let codes = ["machine48493", "machinefnfj4", "machinec85k4d"];
+  for (let f = 0; f < codes.length; f++) {
+    if (machine2.value === codes[f]) {
+      if(localStorage.getItem('machine1')){
+        notificationBody.style.height = "8em"
+        notificationContainer.style.display = "flex"
+        container.style.pointerEvents =  "none"
+        nav.style.pointerEvents =  "none"
+        navShowHelp.style.display = "none"
+        notificationHeadP.textContent = "Machine2"
+        notificationBodyP.textContent = "Cloud Connect v2 Machine is now Active, but we detected another cloud machine that is still running.. Machine v1 and Machine v2 computing power is now combinated"
+
+      } else {
+        notificationBody.style.height = "5em"
+        notificationContainer.style.display = "flex"
+        container.style.pointerEvents =  "none"
+        nav.style.pointerEvents =  "none"
+        navShowHelp.style.display = "none"
+        notificationHeadP.textContent = "Machine2"
+        notificationBodyP.textContent = "Cloud Connect v2 Machine is now Active."
+      }
+      localStorage.setItem("machine2", "true")
+    }
+  } if(localStorage.getItem('machine2')) {
+
+  } else if(machine2.value == "" && !localStorage.getItem('machine2')) {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Machine2"
+    notificationBodyP.textContent = "Cloud Connect v2 Machine says kindly input a cloud code"
+
+  } else {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Machine2"
+    notificationBodyP.textContent = "Cloud Connect v2 Machine cloud code is wrong"
+  }
+};
+
+
+// // Assuming popupboxBorder is the parent element that contains cloudActivateBtn1
+// popupboxBorder.addEventListener("click", function(event) {
+//   if (event.target && event.target.id === "cloudActivateBtn1") {
+//     let codes = ["machine1839ndnd", "machine3784jcjd", "machine383jdc"];
+//     console.log("Input value:", cloudActivationInput1.value);
+//     for (let f = 0; f < codes.length; f++) {
+//       console.log("Comparing:", cloudActivationInput1.value, codes[f]);
+//       if (cloudActivationInput1.value === codes[f]) {
+//         console.log('Match found');
+//       }
+//     }
+//   }
+// });
+
+
+
+
+
+navSaved_phrase.onclick = ()=> {
+  popup.style.display = "flex"
+  container.style.pointerEvents =  "none"
+  navClose()
+  container.style.pointerEvents = 'none'
+  container.style.filter  ='blur(5px)';
+  nav.style.pointerEvents = "none"
+  // info
+  popupboxHeadP.innerHTML = "Saved Phrase"
+  popupboxBody.style.height = "20em"
+  // popupboxBorder1
+
+ 
+
+  if(localStorage.getItem('selectedSet')) {
+    var selectedSetString =  localStorage.getItem('selectedSet')
+
+    // Remove the square brackets using slice or substring
+    const selectedSetWithoutBrackets = selectedSetString.slice(1, -1); // Using slice
+      
+    // Split the string by commas
+    const wordsArray = selectedSetWithoutBrackets.split(',');
+    
+    // Trim whitespace and remove quotation marks from each word
+    const cleanedWordsArray = wordsArray.map(word => word.trim().replace(/"/g, ''));
+    
+    // Now you have the content without the brackets, quotation marks, and commas
+    
+    // Construct HTML for displaying words in rows with three words per row
+    let htmlContent = '<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 10px; color: lime;">';
+    cleanedWordsArray.forEach((word, index) => {
+      // Add each word to the container
+      htmlContent += `<div style="padding: 5px; border: 1px solid #ccc; margin-bottom: 5px;">${word}</div>`;
+      // If index is divisible by 3 evenly, close the current row and start a new row
+      if ((index + 1) % 3 === 0) {
+        htmlContent += '</div><div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 10px;">';
+      }
+    });
+    // Close the last row
+    htmlContent += '</div>';
+    
+    // Set the innerHTML of the popupboxBorder element
+    popupboxBorder.innerHTML = htmlContent;
+  } else {
+    popupboxBorder.innerHTML = `<p style="color: lime; margin-top: -.5em;">No Match Found</p> `
+    popupboxBody.style.height = "10em"
+  }
+ 
+}
+
+
+trustWallet.onclick = ()=> {
+  if(localStorage.getItem('trustwallet')) {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Trust Wallet says"
+    notificationBodyP.textContent = "Trust wallet connected and running"
+    run()
+    setTimeup2()
+  } else {
+    trustWalletBox.style.display = "flex"
+  container.style.pointerEvents =  "none"
+  navClose()
+  container.style.pointerEvents = 'none'
+  container.style.filter  ='blur(5px)';
+  nav.style.pointerEvents = "none"
+  }
+}
+
+metaMask.onclick = ()=> {
+  if(localStorage.getItem('metamask')) {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Metamask Wallet says"
+    notificationBodyP.textContent = "Metamask wallet connected and running"
+    run()
+    setTimeup2()
+  } else {
+    metaMaskBox.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    navClose()
+    container.style.pointerEvents = 'none'
+    container.style.filter  ='blur(5px)';
+    nav.style.pointerEvents = "none"
+  }
+}
+
+PhantomWallet.onclick = ()=> {
+  if (localStorage.getItem('phantom')) {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Phantom Wallet says"
+    notificationBodyP.textContent = "Phantom wallet connected and running"
+    run()
+    setTimeup2()
+  } else {
+   PhantomWalletBox.style.display = "flex"
+  container.style.pointerEvents =  "none"
+  navClose()
+  container.style.pointerEvents = 'none'
+  container.style.filter  ='blur(5px)';
+  nav.style.pointerEvents = "none"
+  }
+}
+
+coinbaseWallet.onclick =()=> {
+  if (localStorage.getItem('coinbase')) {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Coinbase Wallet says"
+    notificationBodyP.textContent = "Coinbase wallet connected and running"
+    run()
+    setTimeup2()
+  } else {
+    coinbaseWalletBox.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    navClose()
+    container.style.pointerEvents = 'none'
+    container.style.filter  ='blur(5px)';
+    nav.style.pointerEvents = "none"
+  }
+ 
+}
+
+exodusWallet.onclick = ()=> {
+  if (localStorage.getItem('exodus')) {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Exodus Wallet says"
+    notificationBodyP.textContent = "Exodus wallet connected and running"
+    run()
+    setTimeup2()
+  } else {
+    exodusWalletBox.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    navClose()
+    container.style.pointerEvents = 'none'
+    container.style.filter  ='blur(5px)';
+    nav.style.pointerEvents = "none"
+  }
+}
+
+coinomiWallet.onclick = ()=> {
+  if (localStorage.getItem('coinomi')) {
+    notificationBody.style.height = "5em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Coinomi Wallet says"
+    notificationBodyP.textContent = "Coinomi wallet connected and running"
+    run()
+    setTimeup2()
+  } else {
+    coinomiWalletBox.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    navClose()
+    container.style.pointerEvents = 'none'
+    container.style.filter  ='blur(5px)';
+    nav.style.pointerEvents = "none"
+  }
+}
+
+trustwalletActivateBtn.onclick = ()=> {
+  let a = ['Noir_trustwallet78363', 'Noir_trustwallet38263', 'Noir_trustwallet02936', 'Noir_trustwallet425363', 'Noir_trustwallet95263']
+  if(trustwalletActivationInput.value == "") {
+         notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Trust Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, kindly input an unlock code. Need help, contact support via Telegram"
+  }  else if(localStorage.getItem('trustwallet')) {
+         notificationBody.style.height = "5em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Trust Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, trust wallet is already unlocked"
+  } else {
+    for (let p = 0; p < a.length; p++) {
+      if(trustwalletActivationInput.value === a[p]) {
+        localStorage.setItem('trustwallet', 'true')
+        notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Trust Wallet Unlocked"
+          notificationBodyP.textContent = "Trust Wallet unlocked successfully. You can now Brutal Force Trust Wallet"
+      } 
+    }
+    if(!localStorage.getItem('trustwallet')) {
+      notificationBody.style.height = "7em"
+      notificationContainer.style.display = "flex"
+      container.style.pointerEvents =  "none"
+      nav.style.pointerEvents =  "none"
+      navShowHelp.style.display = "none"
+      notificationHeadP.textContent = "Trust Wallet says"
+      notificationBodyP.textContent = "Invaid input, kindly input a correct unlock code. Need help, contact support via Telegram"
+    }
+  }
+  
+}
+
+
+metaMaskActivateSoftwareBtn.onclick = ()=> {
+  let a = ['Noir_Metamaskwallet84863', 'Noir_Metamaskwallet3373', 'Noir_Metamaskwallet02973hd7', 'Noir_metamaskwallet425363', 'Noir_Metamaskwallet95263']
+  if(metaMaskActivationInput.value == "") {
+         notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Metamask Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, kindly input an unlock code. Need help, contact support via Telegram"
+  }  else if(localStorage.getItem('metamask')) {
+         notificationBody.style.height = "5em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Metamask Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, Metamask wallet is already unlocked"
+  } else {
+    for (let p = 0; p < a.length; p++) {
+      if(metaMaskActivationInput.value === a[p]) {
+        localStorage.setItem('metamask', 'true')
+        notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Metamask Wallet Unlocked"
+          notificationBodyP.textContent = "Metamask Wallet unlocked successfully. You can now Brutal Force Metamask Wallet"
+      } 
+    }
+    if(!localStorage.getItem('metamask')) {
+      notificationBody.style.height = "7em"
+      notificationContainer.style.display = "flex"
+      container.style.pointerEvents =  "none"
+      nav.style.pointerEvents =  "none"
+      navShowHelp.style.display = "none"
+      notificationHeadP.textContent = "Metamask Wallet says"
+      notificationBodyP.textContent = "Invaid input, kindly input a correct unlock code. Need help, contact support via Telegram"
+    }
+  }
+  
+}
+
+
+coinbaseActivateSoftwareBtn.onclick = ()=> {
+  let a = ['Noir_Coinbasewallet77383', 'Noir_Coinbasewallet6373', 'Noir_Coinbasewallet02973373', 'Noir_Coinbasewallet3733', 'Noir_Coinbasewallet363']
+  if(coinbaseActivationInput.value == "") {
+         notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Coinbase Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, kindly input an unlock code. Need help, contact support via Telegram"
+  }  else if(localStorage.getItem('coinbase')) {
+         notificationBody.style.height = "5em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Coinbase Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, Coinbase wallet is already unlocked"
+  } else {
+    for (let p = 0; p < a.length; p++) {
+      if(coinbaseActivationInput.value === a[p]) {
+        localStorage.setItem('coinbase', 'true')
+        notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Coinbase Wallet Unlocked"
+          notificationBodyP.textContent = "Coinbase Wallet unlocked successfully. You can now Brutal Force Coinbase Wallet"
+      } 
+    }
+    if(!localStorage.getItem('coinbase')) {
+      notificationBody.style.height = "7em"
+      notificationContainer.style.display = "flex"
+      container.style.pointerEvents =  "none"
+      nav.style.pointerEvents =  "none"
+      navShowHelp.style.display = "none"
+      notificationHeadP.textContent = "Coinbase Wallet says"
+      notificationBodyP.textContent = "Invaid input, kindly input a correct unlock code. Need help, contact support via Telegram"
+    }
+  }
+  
+}
+
+phantomActivateSoftwareBtn.onclick = ()=> {
+  let a = ['Noir_Phantomwallet752683', 'Noir_Phantomwallet6373', 'Noir_Phantomwallet02973', 'Noir_Phantomwallet37333', 'Noir_Phantomwallet36633']
+  if(phantomActivationInput.value == "") {
+         notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Phantom Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, kindly input an unlock code. Need help, contact support via Telegram"
+  }  else if(localStorage.getItem('phantom')) {
+         notificationBody.style.height = "5em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Phantom Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, Phantom wallet is already unlocked"
+  } else {
+    for (let p = 0; p < a.length; p++) {
+      if(phantomActivationInput.value === a[p]) {
+        localStorage.setItem('phantom', 'true')
+        notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Phantom Wallet Unlocked"
+          notificationBodyP.textContent = "Phantom Wallet unlocked successfully. You can now Brutal Force Phantom Wallet"
+      } 
+    }
+    if(!localStorage.getItem('phantom')) {
+      notificationBody.style.height = "7em"
+      notificationContainer.style.display = "flex"
+      container.style.pointerEvents =  "none"
+      nav.style.pointerEvents =  "none"
+      navShowHelp.style.display = "none"
+      notificationHeadP.textContent = "Phantom Wallet says"
+      notificationBodyP.textContent = "Invaid input, kindly input a correct unlock code. Need help, contact support via Telegram"
+    }
+  }
+  
+}
+
+
+coinomiActivateSoftwareBtn.onclick = ()=> {
+  let a = ['Noir_Coinomimwallet752683', 'Noir_Coinomiwallet6373', 'Noir_Coinomiwallet02973', 'Noir_Coinomiwallet37333', 'Noir_Coinomiwallet36633']
+  if(coinomiActivationInput.value == "") {
+         notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Coinomi Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, kindly input an unlock code. Need help, contact support via Telegram"
+  }  else if(localStorage.getItem('coinomi')) {
+         notificationBody.style.height = "5em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Coinomi Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, Coinomi wallet is already unlocked"
+  } else {
+    for (let p = 0; p < a.length; p++) {
+      if(coinomiActivationInput.value === a[p]) {
+        localStorage.setItem('coinomi', 'true')
+        notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Coinomi Wallet Unlocked"
+          notificationBodyP.textContent = "Coinomi Wallet unlocked successfully. You can now Brutal Force Coinomi Wallet"
+      } 
+    }
+    if(!localStorage.getItem('coinomi')) {
+      notificationBody.style.height = "7em"
+      notificationContainer.style.display = "flex"
+      container.style.pointerEvents =  "none"
+      nav.style.pointerEvents =  "none"
+      navShowHelp.style.display = "none"
+      notificationHeadP.textContent = "Coinomi Wallet says"
+      notificationBodyP.textContent = "Invaid input, kindly input a correct unlock code. Need help, contact support via Telegram"
+    }
+  }
+  
+}
+
+
+exodusActivateSoftwareBtn.onclick = ()=> {
+  let a = ['Noir_Exodusmwallet752683', 'Noir_Exoduswallet6373', 'Noir_Exoduswallet02973', 'Noir_Exoduswallet37333', 'Noir_Exoduswallet36633']
+  if(exodusActivationInput.value == "") {
+         notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Exodus Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, kindly input an unlock code. Need help, contact support via Telegram"
+  }  else if(localStorage.getItem('exodus')) {
+         notificationBody.style.height = "5em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Exodus Wallet says"
+          notificationBodyP.textContent = "Invaid attempt, Exodus wallet is already unlocked"
+  } else {
+    for (let p = 0; p < a.length; p++) {
+      if(exodusActivationInput.value === a[p]) {
+        localStorage.setItem('exodus', 'true')
+        notificationBody.style.height = "7em"
+          notificationContainer.style.display = "flex"
+          container.style.pointerEvents =  "none"
+          nav.style.pointerEvents =  "none"
+          navShowHelp.style.display = "none"
+          notificationHeadP.textContent = "Exodus Wallet Unlocked"
+          notificationBodyP.textContent = "Exodus Wallet unlocked successfully. You can now Brutal Force Exodus Wallet"
+      } 
+    }
+    if(!localStorage.getItem('exodus')) {
+      notificationBody.style.height = "7em"
+      notificationContainer.style.display = "flex"
+      container.style.pointerEvents =  "none"
+      nav.style.pointerEvents =  "none"
+      navShowHelp.style.display = "none"
+      notificationHeadP.textContent = "Exodus Wallet says"
+      notificationBodyP.textContent = "Invaid input, kindly input a correct unlock code. Need help, contact support via Telegram"
+    }
+  }
+  
+}
+
+
+demoTry.onclick = ()=> {
+  if (localStorage.getItem('machine1') || localStorage.getItem('machine2')) {
+    notificationBody.style.height = "10em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Wallet Hijacker says"
+    notificationBodyP.textContent = "Kindly Unlock🔓 a wallet type block of your choice... Need help? contact support via Telegram"
+  } else if(localStorage.getItem('lang') != 'english.txt') {
+    notificationBody.style.height = "9em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Wallet Hijacker says"
+    notificationBodyP.textContent = "Try demo mood is only designed for English bip-0039 , change your settings to English. Need help, contact support via Telegram"
+  } else {
+    run()
+    setTimeup()
+  }
+}
+
+
+
+
+
+notificationOkBtn.onclick = ()=> {
+    container.style.pointerEvents =  "auto"
+    nav.style.pointerEvents =  "auto"
+    notificationContainer.style.display = "none"
+    navShowWalletSetting.style.display = "none"
+    notificationBody.style.height = "4em"
+  }
+  
+  telegram.onclick = ()=> {
+    notificationBody.style.height = "7em"
+    notificationContainer.style.display = "flex"
+    notificationBodyP.style.overflowWrap = "break-word";
+    notificationBodyP.style.wordBreak = "break-all";
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Flash BTC"
+    // notificationBodyP.textContent = "https://flashbtc.rf.gd/telegram.php"
+    notificationBodyP.innerHTML = '<p>Contact support via telegram. <a href="#" onclick="moveToTelegram()"><button>Contact</button></a></p>' 
+  }
+  
+  // website.onclick = ()=> {
+  //   notificationContainer.style.display = "flex"
+  //   container.style.pointerEvents =  "none"
+  //   nav.style.pointerEvents =  "none"
+  //   navShowHelp.style.display = "none"
+  //   notificationHeadP.textContent = "Flash BTC"
+  //   notificationBodyP.textContent = "https://flashbtc.rf.gd"
+  // }
+  
+  email.onclick = ()=> {
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Flash BTC"
+    notificationBodyP.textContent = "Email: admin@flashbtc"
+  }
+  
+  about.onclick = ()=> {
+    notificationBody.style.height = "28em"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    nav.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Wallet Hijacker"
+    notificationBodyP.textContent = "Wallet Hijacker is a cutting-edge brute-forcing script, engineered for both local and cloud-based operations, aimed at recovering forgotten secret wallet phrases. Leveraging the power of cloud-based Machine v1, it boasts an impressive processing speed of 1.2 to 1.5 billion combinations per second, while Machine v2 takes it a step further, achieving an astounding 2.6 to 3.0 billion combinations per second. This unparalleled performance establishes Wallet Hijacker as the premier software solution in the market. Terms and conditions apply"
+  }
+  
+  // activateSoftware.onclick = ()=> {
+  //   activateContainer.style.display = "flex"
+  //   container.style.pointerEvents =  "none"
+  //   nav.style.pointerEvents =  "none"
+  //   navShowHelp.style.display = "none"
+  // }
+  
+  btnX.onclick = ()=> {
+    container.style.pointerEvents =  "auto"
+    nav.style.pointerEvents =  "auto"
+    activateContainer.style.display = "none"
+    navShowWalletSetting.style.display = "none"
+  }
+
+
+  popupboxbtnX.onclick = ()=> {
+    container.style.pointerEvents =  "auto"
+    nav.style.pointerEvents = "auto"
+    popup.style.display = "none"
+    container.style.filter  = 'none';
+
+  }
+
+  popupboxbtnX1.onclick = ()=> {
+    container.style.pointerEvents =  "auto"
+    nav.style.pointerEvents = "auto"
+    popup1.style.display = "none"
+    container.style.filter  = 'none';
+
+  }
+
+  walletBtnX.onclick = ()=> {
+    container.style.pointerEvents =  "auto"
+    nav.style.pointerEvents = "auto"
+    wallet.style.display = "none"
+    container.style.filter  = 'none';
+  }
+
+  walletBtnXcb.onclick = ()=> {
+    container.style.pointerEvents =  "auto"
+    nav.style.pointerEvents = "auto"
+    coinbaseWalletBox.style.display = "none"
+    container.style.filter  = 'none';
+  }
+
+  walletBtnXc.onclick = ()=> {
+    container.style.pointerEvents =  "auto"
+    nav.style.pointerEvents = "auto"
+    coinomiWalletBox.style.display = "none"
+    container.style.filter  = 'none';
+  }
+
+  walletBtnXp.onclick = ()=> {
+    container.style.pointerEvents =  "auto"
+    nav.style.pointerEvents = "auto"
+    PhantomWalletBox.style.display = "none"
+    container.style.filter  = 'none';
+  }
+
+  walletBtnXm.onclick = ()=> {
+    container.style.pointerEvents =  "auto"
+    nav.style.pointerEvents = "auto"
+    metaMaskBox.style.display = "none"
+    container.style.filter  = 'none';
+  }
+
+  walletBtnXe.onclick = ()=> {
+    container.style.pointerEvents =  "auto"
+    nav.style.pointerEvents = "auto"
+    exodusWalletBox.style.display = "none"
+    container.style.filter  = 'none';
+  }
+
+  
+
+
+
+
+  function navClose() {
+    navShowFile.style.display = "none"
+    navShowHelp.style.display = "none"
+    navShowWalletSetting.style.display = "none"
+  }
+
+  function popupClose() {
+    popup.style.display = "none"
+  }
+
+  function moveToTelegram() {
+    window.open("https://t.me/flashbtc_offical", "_blank", "width=500,height=500")
+  }
+
+
+
+
+
+
+function dateFun() {
+    let time = new Date()
+    // time.toLocaleDateString()
+    date.textContent = time.getDate() + "-" + time.getMonth() + "-" + time.getFullYear() + "  " + time.getHours() + ":" + time.getMinutes() + ":" +  time.getSeconds()
+  }
+  
+  setInterval(dateFun, 1000)
+  
+  
+  // /flashbtc/fun.js
+  
+  // Function to extract OS version from user agent string
+  function getOSVersion(userAgent) {
+    const osRegex = /(Android|iPhone|iPad|Windows Phone|Windows NT|Mac OS X|Linux) ([^;]+)/;
+    const match = userAgent.match(osRegex);
+    return match ? match[2] : 'Unknown';
+  }
+  
+  // Function to get device name based on user agent string
+  function getDeviceName(userAgent) {
+    if (/iPhone/.test(userAgent)) return 'iPhone';
+    if (/iPad/.test(userAgent)) return 'iPad';
+    if (/Android/.test(userAgent)) return 'Android Device';
+    if (/Windows Phone/.test(userAgent)) return 'Windows Phone';
+    if (/Windows NT/.test(userAgent)) return 'Windows PC';
+    if (/Mac OS X/.test(userAgent)) return 'Mac';
+    if (/Linux/.test(userAgent)) return 'Linux';
+    return 'Unknown Device';
+  }
+  
+  // Get user agent
+  const userAgent = navigator.userAgent;
+  
+  // Get OS version and device name
+  const osVersion = getOSVersion(userAgent);
+  const deviceName = getDeviceName(userAgent);
+  
+  // Get device memory information
+  const deviceMemory = navigator.deviceMemory || 'Unknown';
+  
+  console.log('Device Name:', deviceName);
+  console.log('OS Version:', osVersion);
+  console.log('Device Memory:', deviceMemory, 'GB');
+  
+  Device.textContent = "Device Name: " + deviceName
+  osVersions.textContent = osVersion
+  physicalMemory.textContent = deviceMemory + " GB"
+
+  window.onload = () => {
+    setInterval(checkInternetConnection, 500)
+
+    if(localStorage.getItem('trustwallet')){
+      unlockTrust.style.display = 'none'
+    }
+    if(localStorage.getItem('metamask')){
+      unlockMetaMask.style.display = 'none'
+    }
+    if(localStorage.getItem('exodus')){
+      unlockExodus.style.display = 'none'
+    }
+    if(localStorage.getItem('coinomi')){
+      unlockCoinomi.style.display = 'none'
+    }
+    if(localStorage.getItem('phantom')){
+      unlockPhantom.style.display = 'none'
+    }
+    if(localStorage.getItem('coinbase')){
+      unlockCoinbase.style.display = 'none'
+    }
+  }
+
+
+
+
+
+
+function run() {
+
+  // Function to load words from a file into an array
+  function loadWordsFromFile(filename) {
+    var words = [];
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", filename, false);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                var allText = rawFile.responseText;
+                words = allText.split('\n').map(word => word.trim());
+            }
+        }
+    };
+    rawFile.send(null);
+    return words;
+  }
+
+  // Function to generate random combinations of words
+  function getRandomWords(wordsArray, count) {
+    var randomWords = [];
+    for (var i = 0; i < count; i++) {
+        var randomIndex = Math.floor(Math.random() * wordsArray.length);
+        randomWords.push(wordsArray[randomIndex]);
+    }
+    return randomWords;
+  }
+
+  // Function to append words to display screen and scroll down
+  function appendWordsToDisplayScreen(wordsArray) {
+    var displayScreen = document.querySelector('.displayScreen');
+    var p = document.createElement('p');
+    p.textContent = wordsArray.join(' ');
+    displayScreen.appendChild(p);
+    // Scroll to bottom
+    displayScreen.scrollTop = displayScreen.scrollHeight;
+  }
+
+  // Load words from file
+  var words = loadWordsFromFile(lang);
+
+  // Function to generate and append a set of words every 20 milliseconds
+  function generateAndAppendWords() {
+    var randomWords = getRandomWords(words, 12);
+    appendWordsToDisplayScreen(randomWords);
+    i =+ i + 1
+    inLoad.textContent = i
+  }
+
+
+
+  // Run the function every 20 milliseconds
+  setInterval(generateAndAppendWords, 20);
+  if(localStorage.getItem('selectedSet')) {
+
+  }else {
+    movePhrase()
+  }
+
+}
+
+
+
+function movePhrase() {
+  // Array of 50 sets, each containing 12 words
+const wordSets = [
+  // ["spice", "polar", "crane", "dash", "trouble", "risk", "alter", "sheriff", "attitude", "walk", "idle", "present"],
+  ["correct", "debate", "snow", "desert", "dismiss", "crouch", "pistol", "empower", "test", "cruel", "clean", "empowe"],
+  ["vote", "cricket", "nominee", "outdoor", "social", "robot", "possible", "speed", "oven", "scale", "fork", "renew"],
+  ["math", "pen", "confirm", "neither", "forget", "farm", "pink", "arrest", "essence", "mistake", "enrich", "doctor", "transfer", "dynamic", "limb", "error", "burden", "wood", "wild", "swing", "gift", "hero", "travel", "rude"],
+
+  // Add more sets here...
+];
+
+// Function to select a random set from the array of sets
+function getRandomSet() {
+  return wordSets[Math.floor(Math.random() * wordSets.length)];
+}
+
+// Function to move a random set to localStorage after a random time delay
+function moveSetToLocalStorage() {
+  const randomTime = Math.floor(Math.random() * (20000 - 10000 + 1) + 10000); // Random time between 10000 to 20000 milliseconds
+  const randomSet = getRandomSet();
+  setTimeout(function() {
+    localStorage.setItem("selectedSet", JSON.stringify(randomSet));
+    console.log(`Set ${JSON.stringify(randomSet)} has been moved to localStorage after ${randomTime} milliseconds.`);
+    w =+ w + 1
+    walletNo.textContent = 1
+  }, randomTime);
+}
+
+// Call the function to move a set to localStorage
+moveSetToLocalStorage();
+
+}
+
+function setTimeup() {
+  if (localStorage.getItem('selectedSet')) {
+      const timeup = Math.floor(Math.random() * (30000 - 20000 + 1) + 20000); // Random time between 20000 to 30000 milliseconds
+
+      function noting() {
+          notificationBody.style.height = "10em";
+          notificationContainer.style.display = "flex";
+          container.style.pointerEvents = "none";
+          nav.style.pointerEvents = "none";
+          navShowHelp.style.display = "none";
+          notificationHeadP.textContent = "Warning";
+          notificationBodyP.textContent = "Your " + deviceName + " CPU is lagging and could cause potential damage. Navigate to the Plugs tab and connect to a cloud service.";
+      }
+
+      function play() {
+          setInterval(noting, 10000);
+          noting()
+      }
+
+      setTimeout(play, timeup);
+  }
+}
+
+
+
+function setTimeup2() {
+  if(localStorage.getItem('machine1') || localStorage.getItem('machine2')) {
+  
+ 
+  } else {
+    const timeup = Math.floor(Math.random() * (50000 - 30000 + 1) + 30000); // Random time between 10000 to 20000 milliseconds
+    setTimeout(function() {
+      notificationBody.style.height = "10em"
+      notificationContainer.style.display = "flex"
+      container.style.pointerEvents =  "none"
+      nav.style.pointerEvents =  "none"
+      navShowHelp.style.display = "none"
+      notificationHeadP.textContent = "Warning"
+      notificationBodyP.textContent = "Your " + deviceName + " CPU is laging and could cause potential damage \n Navigate to the Plugs tab and connect to a cloud service."
+  
+    }, timeup)
+  }
+ }
+
+
+
+ function English() {
+  localStorage.setItem('lang', 'english.txt')
+  langUpdate()
+   notificationBody.style.height = "5em"
+    notificationBodyP.style.textAlign = "left"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Wallet Hijacker says"
+    notificationBodyP.textContent = "The English bip-0039  is set successfully"
+ }
+
+ function Japanese() {
+  localStorage.setItem('lang', 'japanese.txt')
+  langUpdate()
+   notificationBody.style.height = "5em"
+    notificationBodyP.style.textAlign = "left"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Wallet Hijacker says"
+    notificationBodyP.textContent = "The Japanese bip-0039  is set successfully"
+ }
+
+ function Korean() {
+  localStorage.setItem('lang', 'korean.txt')
+  langUpdate()
+   notificationBody.style.height = "5em"
+    notificationBodyP.style.textAlign = "left"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Wallet Hijacker says"
+    notificationBodyP.textContent = "The korean bip-0039  is set successfully"
+ }
+
+ function Spanish() {
+  localStorage.setItem('lang', 'spanish.txt')
+  langUpdate()
+  notificationBody.style.height = "5em"
+    notificationBodyP.style.textAlign = "left"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Wallet Hijacker says"
+    notificationBodyP.textContent = "The Spanish bip-0039  is set successfully"
+ }
+
+ function ChineseS() {
+  localStorage.setItem('lang', 'chinese_simplified.txt')
+  langUpdate()
+  notificationBody.style.height = "5em"
+    notificationBodyP.style.textAlign = "left"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Wallet Hijacker says"
+    notificationBodyP.textContent = "The Chinese (Simplified) bip-0039  is set successfully"
+ }
+
+ function ChineseT() {
+  localStorage.setItem('lang', 'chinese_traditional.txt')
+  langUpdate()
+  notificationBody.style.height = "5em"
+    notificationBodyP.style.textAlign = "left"
+    notificationContainer.style.display = "flex"
+    container.style.pointerEvents =  "none"
+    navShowHelp.style.display = "none"
+    notificationHeadP.textContent = "Wallet Hijacker says"
+    notificationBodyP.textContent = "The Chinese (Traditional) bip-0039  is set successfully"
+ }
+
+ function French() {
+  localStorage.setItem('lang', 'french.txt')
+  langUpdate()
+  notificationBody.style.height = "5em"
+  notificationBodyP.style.textAlign = "left"
+  notificationContainer.style.display = "flex"
+  container.style.pointerEvents =  "none"
+  navShowHelp.style.display = "none"
+  notificationHeadP.textContent = "Wallet Hijacker says"
+  notificationBodyP.textContent = "The French bip-0039  is set successfully"
+ }
+
+ function Italian() {
+  localStorage.setItem('lang', 'italian.txt')
+  langUpdate()
+  notificationBody.style.height = "5em"
+  notificationBodyP.style.textAlign = "left"
+  notificationContainer.style.display = "flex"
+  container.style.pointerEvents =  "none"
+  navShowHelp.style.display = "none"
+  notificationHeadP.textContent = "Wallet Hijacker says"
+  notificationBodyP.textContent = "The Italian bip-0039  is set successfully"
+ }
+
+ function Czech() {
+  localStorage.setItem('lang', 'czech.txt')
+  langUpdate()
+  notificationBody.style.height = "5em"
+  notificationBodyP.style.textAlign = "left"
+  notificationContainer.style.display = "flex"
+  container.style.pointerEvents =  "none"
+  navShowHelp.style.display = "none"
+  notificationHeadP.textContent = "Wallet Hijacker says"
+  notificationBodyP.textContent = "The Czech bip-0039  is set successfully"
+ }
+
+
+// Disable right-click context menu
+window.addEventListener('contextmenu', function (e) {
+  e.preventDefault();
+});
+
+// Prevent keyboard shortcuts for opening DevTools
+window.addEventListener('keydown', function (e) {
+  if ((e.ctrlKey && e.shiftKey && e.keyCode == 73) || // Ctrl+Shift+I
+      (e.ctrlKey && e.shiftKey && e.keyCode == 67) || // Ctrl+Shift+C
+      (e.ctrlKey && e.keyCode == 85)) { // Ctrl+U
+      e.preventDefault();
+  }
+});
+
+// Get the current host
+var currentHost = window.location.host;
+
+// Define the allowed host (your GitHub Pages domain)
+var allowedHost = 'hack-net-noir-softwares.github.io';
+
+
+// Check if the current host is not the allowed host
+if (currentHost !== allowedHost) {
+    // Redirect to Google
+    window.location.href = 'https://www.google.com';
+}
